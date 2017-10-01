@@ -1,4 +1,45 @@
 /*--------------------- Common Css Start ----------------*/
+/* Reset */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: Helvetica, sans-serif;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	-webkit-text-size-adjust: none;
+}
 
 * {
 	outline: none;
@@ -588,12 +629,11 @@ thead, tbody, tfoot {
 
 /*--------------------- Header section start ----------------*/
 
-section.header{
+section.header_top{
 	background-color:#be1e2d;
 	height: 550px;
 	padding: 150px 100px;
 }
-
 
 
 
@@ -1061,8 +1101,9 @@ a.notify-me {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #1d2437;
-    opacity: .4;
+    background-color: #000;
+	opacity: .4;
+	filter: grayscale(1);
 }
 
 .head {
@@ -1090,6 +1131,43 @@ a.notify-me {
     height: 20px;
     margin-top: -5px;
 }
+
+.header{
+	transition: 0.5s;
+}
+
+.header.waiting-to-fix {
+	top: -200px;
+	width: 100%;
+	z-index: 99;
+	position: fixed;
+}
+
+.header.is-fixed {
+	max-width: 100%;
+	position: fixed;
+	right: 0;
+	padding: 10px 50px;
+	top: 0;
+	background-color: rgba(190,30,46,0.8);
+	width: 100%;
+	z-index: 99;
+	border-bottom: none;
+	opacity: 1;
+}
+
+.header.is-fixed .logo {
+	width: 10%;
+}
+
+.header.is-fixed .nav-bars {
+    position: absolute;
+    right: 50px;
+    width: 2%;
+    height: auto;
+    top: 30px;
+}
+
 /*-------------------------- Element Head End ----------------------------*/
 
 /*------------------------ Slide Start ------------------*/
@@ -1214,9 +1292,14 @@ a.notify-me {
 	line-height: 1.5;
 	border: 0;
 	color: inherit;
-	font-size: 20px;
+	font-size: 18px;
+	font-weight: lighter;
+	text-decoration: none;
 }
 
+#menu > .inner > ul > li a:hover{
+	text-decoration: underline;
+}
 #menu > .inner > ul > li:first-child {
 	border-top: 0;
 	margin-top: -1em;
@@ -1234,8 +1317,8 @@ a.notify-me {
 	-webkit-tap-highlight-color: transparent;
 	display: block;
 	position: absolute;
-	top: 3em;
-	right: 6em;
+	top: 150px;
+	right: 0px;
 	width: 6em;
 	text-indent: 6em;
 	height: 3em;
@@ -1281,6 +1364,14 @@ a.notify-me {
 #menu > .close:hover:after {
 	opacity: 0;
 }
+
+
+
+.major img {
+    width: 50%;
+    margin: 130px 0 50px;
+}
+
 
 @media screen and (max-width: 736px) {
 
@@ -1351,6 +1442,9 @@ body.is-menu-visible #menu {
 		margin-right: 0px;
 	}
 
+
+	
+
 /*-------------------------- Menu End ----------------------------*/
 
 /*------------------------ Testimonial Start ---------------------*/
@@ -1402,12 +1496,15 @@ body.is-menu-visible #menu {
 /*---------------------- Home Head Start ------------------*/
 
 .owl-carousel .owl-dot {
-    background-color: transparent;
+    background-color: #ffffff;
     border-radius: 100%;
     border: 1px solid white;
     display: inline-block;
     padding: 4px 4px;
     margin-right: 5px;
+}
+.owl-theme .owl-nav{
+	margin: 0;
 }
 
 @media only screen and (max-width: 768px) {
@@ -1422,8 +1519,8 @@ body.is-menu-visible #menu {
 }
 
 .owl-carousel .owl-dot.active {
-    background-color: #fff;/*
-    border-color: #e1666a;*/
+	background-color: #7c0612;
+	border-color: #7c0612;
 }
 .owl-theme .owl-dots .owl-dot span {
     width: 0px;
@@ -1437,7 +1534,7 @@ body.is-menu-visible #menu {
 }
 .owl-theme .owl-dots {
     position: absolute;
-    bottom: 122px;
+    bottom: 20px;
     width: 100%;
 }
 
@@ -1545,7 +1642,7 @@ a {
 	margin: 0px;
 }
 
-.slide1 {
+/* .slide1 {
     background: url(../images/slider1.jpg);  
 }
 .slide2 {
@@ -1553,42 +1650,64 @@ a {
 }
 .slide3 {
     background: url(../images/slider3.jpg);
-}
+} */
 
-.bg {
+/* .bg {
 	min-height: 80vh;
 	background-size: cover;
     background-repeat: repeat;
     background-position: center center;
     position: relative;
-}
+} */
+
 
 .head-text {
-    position: absolute;
-    z-index: 9;
-    width: 100%;
-    text-align: center;
-    padding-top: 190px;
+	position: absolute;
+	z-index: 9;
+	width: 50%;
+	text-align: center;
+	/* padding-top: 190px; */
+	top: 50%;
+	left: 50%;
+	transform: translate(0,-50%);
 }
+
 .head-text a {
-	text-decoration: underline;
-	color: #fff;
-	font-size: 12px;
+    text-decoration: underline;
+    color: #be1e2d;
+    font-size: 18px;
     font-weight: inherit;
     letter-spacing: .4px;
+    border: 1px solid #be1e2d;
+    width: 120px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px 0 0;
+    float: left;
 }
 
 @media only screen and (max-width: 482px) {
     .head-text h1 {
-		font-family: 'Rubik-Bold', sans-serif;
-		font-weight: 900;
-		font-size: 23px;
+		font-family: Helvetica;
+		font-weight: bold;
+		color: #be1e2d;
+		font-size: 2rem;
+		text-align: left;
 	}
 }
 
 .head-text h1 {
-	font-family: 'Rubik-Bold', sans-serif;
-	font-weight: 900;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: #be1e2d;
+    font-size: 2.8rem;
+    text-align: left;
+    line-height: 46px;
+}
+
+.head-text h1 span {
+	font-weight: 300;
 }
 
 @media screen and (max-width: 600px){
