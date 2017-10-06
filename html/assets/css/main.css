@@ -1137,9 +1137,10 @@ a.notify-me {
 }
 
 .header.waiting-to-fix {
-	top: -200px;
+	top: -300px;
 	width: 100%;
 	z-index: 99;
+	padding: 10px 100px;	
 	position: fixed;
 }
 
@@ -1147,9 +1148,9 @@ a.notify-me {
 	max-width: 100%;
 	position: fixed;
 	right: 0;
-	padding: 10px 50px;
+	padding: 10px 100px;
 	top: 0;
-	background-color: rgba(190,30,46,0.8);
+	background-color: transparent;
 	width: 100%;
 	z-index: 99;
 	border-bottom: none;
@@ -1157,13 +1158,13 @@ a.notify-me {
 }
 
 .header.is-fixed .logo {
-	width: 10%;
+    width: 140px;
 }
 
 .header.is-fixed .nav-bars {
     position: absolute;
-    right: 50px;
-    width: 2%;
+    right: 100px;
+    width: 32px;
     height: auto;
     top: 30px;
 }
@@ -1430,8 +1431,8 @@ body.is-menu-visible #menu {
 
 	.nav-bars {
 		position: absolute;
-		right: 15px;
-		width: 2%;
+		right: 0px;
+		width: 32px;
 		height: auto;
 		top: 0;
 	}
