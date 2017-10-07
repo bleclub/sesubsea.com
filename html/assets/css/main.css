@@ -1133,22 +1133,25 @@ a.notify-me {
 }
 
 .header{
-	transition: 0.5s;
+	-webkit-transition: 0.4s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+	-moz-transition: 0.4s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+	transition: 0.4s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 
 .header.waiting-to-fix {
 	top: -300px;
 	width: 100%;
 	z-index: 99;
-	padding: 10px 100px;	
+	/* padding: 10px 100px;	 */
 	position: fixed;
+	/* left: 0; */
 }
 
 .header.is-fixed {
 	max-width: 100%;
 	position: fixed;
-	right: 0;
-	padding: 10px 100px;
+	left: 100px;
+	/* padding: 10px 100px; */
 	top: 0;
 	background-color: transparent;
 	width: 100%;
@@ -1161,13 +1164,7 @@ a.notify-me {
     width: 140px;
 }
 
-.header.is-fixed .nav-bars {
-    position: absolute;
-    right: 100px;
-    width: 32px;
-    height: auto;
-    top: 30px;
-}
+
 
 /*-------------------------- Element Head End ----------------------------*/
 
@@ -1430,10 +1427,10 @@ body.is-menu-visible #menu {
 	}
 
 	.nav-bars {
-		position: absolute;
-		right: 0px;
+		position: relative;
 		width: 32px;
-		height: auto;
+		height: 18px;
+		float: right;
 		top: 0;
 	}
 
@@ -1443,10 +1440,44 @@ body.is-menu-visible #menu {
 		margin-right: 0px;
 	}
 
+	.header.is-fixed .nav-bars {
+		position: absolute;
+		right: 215px;
+		top: 30px;
+	}
+
 
 	
 
 /*-------------------------- Menu End ----------------------------*/
+
+/*-------------------------- About Start ----------------------------*/
+
+
+#about .grid_box {
+    height: 100%;
+    display: inline-grid;
+    float: left;
+	width: 100%;
+	max-height: 434px;
+	min-height: 434px;
+}
+
+#about .grid_box h2 {
+	color: #be1e2d;
+	font-size: 24px;
+	padding: 60px 50px;
+	text-transform: uppercase;
+}
+
+#about .grid_box.red_box{
+	background-color: #be1e2d;
+}
+
+#about .grid_box.red_box h2 {
+	color:#ffffff;
+}
+
 
 /*------------------------ Testimonial Start ---------------------*/
 
@@ -1545,7 +1576,7 @@ body.is-menu-visible #menu {
 
 .gallery-pad {
     /*padding-top: 30px;*/
-    margin-top: -10px;
+    /* margin-top: -10px; */
 }
 .no-gutter>[class*=col-] {
     padding-right: 0;
@@ -1669,6 +1700,7 @@ a {
 	text-align: center;
 	/* padding-top: 190px; */
 	top: 50%;
+	max-width: 700px;
 	left: 50%;
 	transform: translate(0,-50%);
 }
