@@ -1102,9 +1102,8 @@ a.notify-me {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #000;
+    background-color: #be1e2d;
 	opacity: .4;
-	filter: grayscale(1);
 }
 
 .head {
