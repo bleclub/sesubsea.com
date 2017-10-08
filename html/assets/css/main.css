@@ -204,6 +204,7 @@ thead, tbody, tfoot {
 		margin-top: 50px;
 		padding-right: 15px;
 		width: 25%;
+		max-width: 400px;
 	}
 
 
@@ -932,13 +933,11 @@ input.form-control.notify-me {
 
 .social-icon a {
     display: block;
-    margin: 3px;
-    padding: 12px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    width: 45px;
-    height: 45px;
-    color: #fff;
+	margin: 0;
+	width: 55px;
+	height: 55px;
+	color: #fff;
+	padding:0;
 }
 
 .ion-social-facebook-outline:before {
@@ -960,8 +959,9 @@ input.form-control.notify-me {
 }
 
 ul.social-icon {
-    padding-left: 15px;
-    padding-top: 15px;
+	padding: 0;
+	position: absolute;
+	bottom: 0;
 }
 .last p {
 	display: inline-block;
@@ -1120,7 +1120,8 @@ a.notify-me {
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
-    width: 25%;
+	width: 25%;
+	max-width: 400px;
 }
 
 .logo:hover{
@@ -1363,6 +1364,33 @@ a.notify-me {
 #menu > .close:hover:after {
 	opacity: 0;
 }
+
+
+
+#menu ul.social-icon {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	float: left;
+	left: 0;
+	padding: 0 2.75em 2.75em;
+	margin: 0 auto;
+  }
+  #menu ul.social-icon li {
+	margin: 0;
+	width: 15.2%;
+	margin: 0;
+	text-align: center;
+  }
+  
+  #menu ul.social-icon li a{
+	font-size: 1.5em;
+  }
+  
+  #menu ul.social-icon li a:hover, #menu ul.social-icon li a:focus{
+	text-decoration: none;
+	color: rgba(255,255,255,0.6);
+  }
 
 
 
@@ -1616,6 +1644,127 @@ body.is-menu-visible #menu {
 	width: 100%;
 }
 
+
+.video {
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.wrapper{
+    display:table;
+    width:auto;
+    position:relative;
+    width:100%;
+}
+.playpause {
+    background-image:url('../images/play-icon.svg');
+    background-repeat:no-repeat;
+    width:100px;
+    height:100px;
+    position:absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    background-size:contain;
+    background-position: center;
+}
+
+
+
+/* UPDATE SECTION */
+
+#update {
+    min-height: 450px;
+}
+
+.update_page a{
+	color: #fff;
+}
+
+.update_page .red a{
+	color: #be1e2d;
+}
+
+.update_page .red a:hover, .update_page .red a:focus {
+	color: #be1e2d;
+}
+
+.update_page a:hover, .update_page a:focus{
+	color: rgba(255, 255, 255, 0.6);
+	text-decoration: none;
+}
+
+.update_page .container-fluid {
+    padding: 0;
+}
+
+.update_page .row, .update_page [class^="col-"] {
+    padding: 0;
+    margin: 0;
+}
+
+.block_news {
+	background-color: #ad9e8c;
+	min-height: 450px;
+	padding: 50px;
+  }
+.block_social{
+	padding: 50px;
+	height: 450px;
+}
+  .block_news h3, .block_social h3 {
+	font-size: 28px;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: 2.5px;
+  }
+  .block_news h3 span, .block_social h3 span {
+	font-weight: lighter;
+  }
+
+  .update_page .red{
+	  color: #be1e2d;
+  }
+
+  .block_news ul {
+    line-height: 30px;
+    font-weight: lighter;
+    margin: 40px 0;
+}
+
+.block_news ul li {
+    margin: 0 0 20px;
+}
+.block_news ul li a {
+	color: #fff;
+}
+.block_news ul li a:hover {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.block_news ul li a:focus {
+	text-decoration: none;
+}
+
+
+.block_news li .date_news {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.block_news li .title_news {
+    font-size: 14px;
+}
+
+.block_news .viewall{
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+
+
+  
 
 
 /*------------------------ Testimonial Start ---------------------*/
@@ -2010,6 +2159,7 @@ p.popup-parapraph {
 
 .footer p {
 	font-size: 13px;
+	line-height: 1;
 }
 
 section.footer ul li {
@@ -2018,12 +2168,25 @@ section.footer ul li {
 }
 
 section.footer ul li a {
-    color: #fff;
+	color: #fff;
+	text-transform: uppercase;
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 1px;
 }
 
+section.footer ul li a:hover {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+section.footer ul li a:focus {
+	text-decoration: none;
+}
+	
 .footer {
-	background-color: #1e2026;
-	padding: 30px 0px;
+    background-color: #be1e2d;
+	padding: 2.5em 2.75em 2em;
+    min-height: 100%;
 }
 
 @media only screen and (max-width: 768px) {
