@@ -100,6 +100,7 @@ $(document).ready(function () {
 
             // Hide.
                 $menu._hide();
+                // $body.removeClass('is-menu-visible');
 
         })
         .on('keydown', function(event) {
