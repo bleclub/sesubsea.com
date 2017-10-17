@@ -83,8 +83,7 @@ $(document).ready(function () {
                     window.location.href = href;
                 }, 350);
 
-        });
-        // .append('<a class="close" href="#menu"></a>');
+        }).append('<a class="close" href="#menu">Close</a>');
 
     $body
         .on('click', 'a[href="#menu"]', function(event) {
