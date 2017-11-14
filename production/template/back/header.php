@@ -36,7 +36,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           page. However, you can choose any other skin. Make sure you
           apply the skin class to the body tag so the changes take effect.
     -->
-    <link rel="stylesheet" href="<?php echo $baseUrl; ?>/assets/admin/dist/css/skins/skin-red-light.min.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>/assets/admin/dist/css/skins/skin-red-light.css">
   
     <link rel="mask-icon" href="<?php echo $baseUrl;?>/assets/favicon/favicon_sesubsea.svg" color="#000000">
     <link rel="icon" type="image/x-icon" class="js-site-favicon" href="<?php echo $baseUrl;?>/assets/favicon/favicon_sesubsea.png">
