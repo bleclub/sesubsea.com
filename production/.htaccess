@@ -1,0 +1,31 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on 
+RewriteBase /Vanlop/sesubsea.com/production/
+RewriteRule ^(back)/(.*)/(.*)/(.*)/(.*)$ index.php?onpage=$1&url=$2&a=$3&status=$4&id=$5 [L,QSA]
+RewriteRule ^(front|back)/(.*)/(.*)/(.*)$ index.php?onpage=$1&url=$2&a=$3&id=$4 [L,QSA]
+RewriteRule ^(front|back)/(.*)/(.*)$ index.php?onpage=$1&url=$2&a=$3 [L,QSA]
+RewriteRule ^(front|back)/(.*)$ index.php?onpage=$1&url=$2&a=index [L,QSA]
+RewriteRule ^(front|back)$ index.php?onpage=$1&url=$home&a=index [L,QSA]
+
+#admin
+RewriteRule ^cms$ index.php?onpage=back&url=home&a=index [L,QSA]
+
+#front
+#RewriteRule ^(th|en)/(.*)/(.*)/(.*)/(.*)$ index.php?onpage=front&lang=$1&url=$2&a=$3&page=$4&id=$5 [L,QSA]
+RewriteRule ^(th|en)/(.*)/(.*)/(.*)$ index.php?onpage=front&lang=$1&url=$2&a=$3&status=$4 [L,QSA]
+RewriteRule ^(th|en)/(.*)/(.*)$ index.php?onpage=front&lang=$1&url=$2&a=info&id=$3 [L,QSA]
+RewriteRule ^(th|en)/(.*)$ index.php?onpage=front&url=$2&a=index&lang=$1 [L,QSA]
+RewriteRule ^(th|en)/$ index.php?onpage=front&url=home&a=index&lang=$1 [L,QSA]
+RewriteRule ^(th|en)$ index.php?onpage=front&url=home&a=index&lang=$1 [L,QSA]
+RewriteRule ^/$ index.php?onpage=front&url=home&a=index [L,QSA]
+RewriteRule ^$ index.php?onpage=front&url=home&a=index [L,QSA]
+
+#career
+RewriteRule ^(th|en)/(career)/(.*)/(.*)$ index.php?onpage=front&url=$2&a=$3&job_id=$4&lang=$1 [L]
+RewriteRule ^(th|en)/(career)/(.*)$ index.php?onpage=front&url=$2&a=$3&lang=$1 [L]
+
+#contact
+RewriteRule ^(th|en)/(contact)/(.*)/(.*)$ index.php?onpage=front&url=$2&a=$3&status=$4&lang=$1 [L]
+RewriteRule ^(th|en)/(contact)/(.*)$ index.php?onpage=front&url=$2&a=$3&lang=$1 [L]
+
+</IfModule>
