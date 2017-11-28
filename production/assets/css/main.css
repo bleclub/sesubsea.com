@@ -1533,7 +1533,7 @@ body.is-menu-visible #menu {
 }
 
 .about_page .thumb h2 span {
-	font-weight: lighter;
+	font-weight: 100;
 }
 
 .about_page .thumb i{
@@ -1619,7 +1619,7 @@ body.is-menu-visible #menu {
 	display:none;
    }
  #about .thumb:hover .thumb_overlay {
-	opacity:1;
+	opacity:0.3;
 	background:rgba(0,0,0,0.3);
    }
 #about  .lt-ie9 .thumb:hover .thumb_overlay:before {

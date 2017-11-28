@@ -80,6 +80,7 @@
                 <li><a href="#">Current Vacancies</a></li>
                 <li><a href="#">Working for Sea Subsea</a></li>
             </ul>
+            <span class="thumb_overlay"></span>            
         </div>
         </div>
         <div class="col-md-6 col-sm-8">
@@ -117,6 +118,7 @@
                 <li><a href="#">Current Vacancies</a></li>
                 <li><a href="#">Working for Sea Subsea</a></li>
             </ul>
+            <span class="thumb_overlay"></span>            
             </div>
         </div>
     
