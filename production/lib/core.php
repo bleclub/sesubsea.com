@@ -1,7 +1,7 @@
 <?php
 
 function base_url() {
-    return "http://localhost/Vanlop/sesubsea.com/production";
+    return "http://localhost/ProjectWeb/sesubsea.com/production/";
     // return "http://www.sesubsea.com/preview";
 }
 

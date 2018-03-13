@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
 RewriteEngine on 
-#RewriteBase /Vanlop/sesubsea.com/production/
+RewriteBase /ProjectWeb/sesubsea.com/production/
 #RewriteBase /preview/
 RewriteRule ^(back)/(.*)/(.*)/(.*)/(.*)$ index.php?onpage=$1&url=$2&a=$3&status=$4&id=$5 [L,QSA]
 RewriteRule ^(front|back)/(.*)/(.*)/(.*)$ index.php?onpage=$1&url=$2&a=$3&id=$4 [L,QSA]
@@ -28,5 +28,3 @@ RewriteRule ^(th|en)/(career)/(.*)$ index.php?onpage=front&url=$2&a=$3&lang=$1 [
 #contact
 RewriteRule ^(th|en)/(contact)/(.*)/(.*)$ index.php?onpage=front&url=$2&a=$3&status=$4&lang=$1 [L]
 RewriteRule ^(th|en)/(contact)/(.*)$ index.php?onpage=front&url=$2&a=$3&lang=$1 [L]
-
-</IfModule>
