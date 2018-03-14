@@ -129,7 +129,7 @@ $(document).ready(function () {
     $("#header_slide").owlCarousel({
         items: 1,
         loop:true,
-        autoplay: false
+        autoplay: true
     });
 
     $('.video').parent().click(function () {
