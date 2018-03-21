@@ -4,7 +4,7 @@
     $description = 'Se Subsea';
     $keywords = 'Se Subsea';
 
-	$home_selected = "active"; // Menu selected
+	$menu_home = "active"; // Menu selected
     require 'template/front/header.php';
 	// require 'controllers/front/home_page.php';
 ?>

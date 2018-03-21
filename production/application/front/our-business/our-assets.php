@@ -4,7 +4,7 @@
     $description = 'Se Subsea';
     $keywords = 'Se Subsea';
 
-	$home_selected = "active"; // Menu selected
+	$menu_ourbu = "active"; // Menu selected	
     require 'template/front/header.php';
 	// require 'controllers/front/home_page.php';
 ?>
@@ -34,41 +34,53 @@
 
 <!-- Content
 		============================================= -->
-        <section id="content">
+        <section id="content" class="content_page">
          <div class="content-wrap">
-            <div class="container clearfix">
+            <div class="container-fluid clearfix">
+
+                <div class="col-sm-3 sub_menupage">
+                    <ul>
+                        <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business">What We Do</a></li>
+                        <li class="active"><a href="#">Our Assets</a></li>
+                        <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business/csr">Giving Back(CSR)</a></li>
+                        <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business/qhsse">QHSSE</a></li>
+                    </ul>
+                </div>
+
+                 <div class="col-sm-9">
                 <!-- Post Content -->
-                <div class="row">
-                    <!-- Entry Content
-                    ============================================= -->
-                    <div class="col-sm-12 margin_top">
-                        <div class="margin_bottom width50"><img src="<?php echo $baseUrl; ?>/assets/images/assets_type.png" alt="" class="img-responsive"></div>                        
-                        <p>The S-Lay pipeline installation vessel, SE Centurion, enhances SE Subsea’s solutions and capabilities for both shallow and deepwater.</p>
-                        <p>Key features include:</p>
-                        <ul>  
-                            <li>Loa 146,5m, B 30,0m</li>
-                            <li>Coated pipe up to OD 42in</li>
-                            <li>3 x 135mT tensioners @ A&R winch 450mT</li>
-                            <li>6500mT pipe storage capacity</li>
-                            <li>90m Stinger, adjustable radius 70m to 300m</li>
-                            <li>Main Crane: 300mT @ 15-16 m, Seastate 1-2, Optional 300m block travel at single line</li>
-                            <li>Pipe Transfer Crane: 35mT at 30 m radius, Seastate 5-6</li>
-                            <li>DP Class 2</li>
-                            <li>Accommodation for 239 pax (105 double and 10 single cabins</li>
-                            <li>Transit speed 13 knots</li>
-                        </ul>
                         <div class="row">
-                            <div class="margin_top col-sm-6"><img src="<?php echo $baseUrl; ?>/assets/images/our_business/our_business_img04.jpg" alt="" class="img-responsive"></div>
-                            <div class="margin_top col-sm-6"><img src="<?php echo $baseUrl; ?>/assets/images/our_business/our_business_img05.jpg" alt="" class="img-responsive"></div>
+                            <!-- Entry Content
+                            ============================================= -->
+                            <div class="col-sm-12 margin_top">
+                                <div class="margin_bottom width50"><img src="<?php echo $baseUrl; ?>/assets/images/assets_type.png" alt="" class="img-responsive"></div>                        
+                                <p>The S-Lay pipeline installation vessel, SE Centurion, enhances SE Subsea’s solutions and capabilities for both shallow and deepwater.</p>
+                                <p>Key features include:</p>
+                                <ul>  
+                                    <li>Loa 146,5m, B 30,0m</li>
+                                    <li>Coated pipe up to OD 42in</li>
+                                    <li>3 x 135mT tensioners @ A&R winch 450mT</li>
+                                    <li>6500mT pipe storage capacity</li>
+                                    <li>90m Stinger, adjustable radius 70m to 300m</li>
+                                    <li>Main Crane: 300mT @ 15-16 m, Seastate 1-2, Optional 300m block travel at single line</li>
+                                    <li>Pipe Transfer Crane: 35mT at 30 m radius, Seastate 5-6</li>
+                                    <li>DP Class 2</li>
+                                    <li>Accommodation for 239 pax (105 double and 10 single cabins</li>
+                                    <li>Transit speed 13 knots</li>
+                                </ul>
+                                <div class="row">
+                                    <div class="margin_top col-sm-6"><img src="<?php echo $baseUrl; ?>/assets/images/our_business/our_business_img04.jpg" alt="" class="img-responsive"></div>
+                                    <div class="margin_top col-sm-6"><img src="<?php echo $baseUrl; ?>/assets/images/our_business/our_business_img05.jpg" alt="" class="img-responsive"></div>
+                                </div>
+                                <!-- <div class="logo margin_top"><img src="<?php //echo $baseUrl; ?>/assets/images/sesubsea_logo.svg" title="Se Subsea"  alt="Se Subsea" class="img-responsive"></div> -->
+                            </div>
                         </div>
-                        <!-- <div class="logo margin_top"><img src="<?php //echo $baseUrl; ?>/assets/images/sesubsea_logo.svg" title="Se Subsea"  alt="Se Subsea" class="img-responsive"></div> -->
-                    </div>
                 </div>
             </div>
         </div>
 </section>
 
-<?php require 'template/front/submenu.php'; ?>
+<?php //require 'template/front/submenu.php'; ?>
 
 
 

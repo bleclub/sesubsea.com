@@ -19,6 +19,13 @@
 
 
 @media screen and (max-width: 1024px) {
+    .nav-bars {
+        display: block;
+    }
+
+    .main-menu{
+        display: none;
+    }
 
     #menu{
         width: 20em;
@@ -41,12 +48,12 @@
     }
 
     .header.is-fixed{
-        padding: 0;
-        left: 65px;
+        padding: 0 50px 20px;
+        left: 0;
     }
 
-    .header.is-fixed .nav-bars{
-        right: 125px;
+    .header.is-fixed .nav-bars {
+        right: 50px;
     }
 
     .head-text h1 {
@@ -86,6 +93,7 @@
 }
 
 @media screen and (max-width: 768px) {
+    
 
     section.header_top {
         padding: 100px 50px;
@@ -178,7 +186,9 @@
 
 
 @media screen and (max-width: 740px) {
-
+    #content.content_page{
+        padding: 0;
+    }
     #menu {
         width: 100%;
         max-width: 100%;

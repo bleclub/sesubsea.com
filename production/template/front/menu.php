@@ -25,7 +25,7 @@
 										<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-projects">OUR PROJECTS</a></li>
 										<li><a href="#">MEDIA</a></li>
 										<li><a href="#">OUR PEOPLE</a></li>
-										<li><a href="#">CONTACTS US</a></li>
+										<li><a href="<?php echo $baseUrl."/".$lang; ?>/contact">CONTACTS US</a></li>
 									</ul>
 									<ul class="social-icon">
 										<li><a href="#" class="fa fa-facebook fa-2x"></a></li>
@@ -39,10 +39,27 @@
 								<a href="<?php echo $baseUrl."/".$lang; ?>" class="logo">
 									<img src="<?php echo $baseUrl; ?>/assets/images/sesubsea_logo.svg" alt="Se Subsea" title="Se Subsea" class="img-responsive">
 								</a>
+
+								<div class="main-menu">
+									<ul>
+										<li><a href="<?php echo $baseUrl."/".$lang; ?>" class="<?php echo @$menu_home; ?>">HOME</a></li>
+										<li><a href="<?php echo $baseUrl."/".$lang; ?>/about"  class="<?php echo @$menu_about; ?>">ABOUT US</a></li>
+										<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business"  class="<?php echo @$menu_ourbu; ?>">OUR BUSINESS</a></li>
+										<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-projects"  class="<?php echo @$menu_ourproj; ?>">OUR PROJECTS</a></li>
+										<li><a href="#" class="<?php echo @$menu_media; ?>">MEDIA</a></li>
+										<li><a href="#" class="<?php echo @$menu_ourprop; ?>">OUR PEOPLE</a></li>
+										<li><a href="<?php echo $baseUrl."/".$lang; ?>/contact"  class="<?php echo @$menu_contact; ?>">CONTACTS US</a></li>
+									</ul>
+								</div>
+
 							</div>
 						</header>								
 					</div>
 				</div>
+
+				
+
+
 
 				<!-- <div class="row">
 					<div id="search" class="alt">

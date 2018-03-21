@@ -4,7 +4,7 @@
     $description = 'Se Subsea';
     $keywords = 'Se Subsea';
 
-	$home_selected = "active"; // Menu selected
+	$menu_ourproj = "active"; // Menu selected	
     require 'template/front/header.php';
 	// require 'controllers/front/home_page.php';
 ?>
@@ -87,7 +87,7 @@
         </div>
 </section>
 
-<?php require 'template/front/submenu.php'; ?>
+<?php //require 'template/front/submenu.php'; ?>
 
 
 

@@ -4,7 +4,7 @@
     $description = 'Se Subsea';
     $keywords = 'Se Subsea';
 
-	$home_selected = "active"; // Menu selected
+	$menu_ourbu = "active"; // Menu selected
     require 'template/front/header.php';
 	// require 'controllers/front/home_page.php';
 ?>
@@ -34,29 +34,41 @@
 
 <!-- Content
 		============================================= -->
-        <section id="content">
+        <section id="content" class="content_page">
          <div class="content-wrap">
-            <div class="container clearfix">
-                <!-- Post Content -->
-                <div class="row">
-                    <div class="col-sm-5">
-                            <div class="margin_bottom"><img src="<?php echo $baseUrl; ?>/assets/images/csr_icon.jpg" alt="" class="img-responsive"></div>
-                    </div>
-                    <!-- Entry Content
-                    ============================================= -->
-                    <div class="col-sm-7 margin_top">                      
-                        <p text->We ensure safe operations that protect the environment and benefit local communities.</p>
-                        <p>We engage stakeholders and maximize opportunities for local business, create and provide employment opportunities for the communities we operate in, and invest in community programs.</p>
-                        <p>Clear communications with the local communities regarding our operations is carried out through a consultation process with advisory committees.</p>
-                        <p>Public consultation open houses are held regularly in the communities of Sanzule which are near our GEL Pipeline landing Project.</p>
-                        <!-- <div class="logo margin_top"><img src="<?php //echo $baseUrl; ?>/assets/images/sesubsea_logo.svg" title="Se Subsea"  alt="Se Subsea" class="img-responsive"></div> -->
+            <div class="container-fluid clearfix">
+
+                <div class="col-sm-3 sub_menupage">
+                    <ul>
+                        <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business">What We Do</a></li>
+                        <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business/our-assets">Our Assets</a></li>
+                        <li class="active"><a href="#">Giving Back(CSR)</a></li>
+                        <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business/qhsse">QHSSE</a></li>
+                    </ul>
+                </div>
+
+                 <div class="col-sm-9">
+                    <!-- Post Content -->
+                    <div class="row">
+                        <div class="col-sm-5">
+                                <div class="margin_bottom"><img src="<?php echo $baseUrl; ?>/assets/images/csr_icon.jpg" alt="" class="img-responsive"></div>
+                        </div>
+                        <!-- Entry Content
+                        ============================================= -->
+                        <div class="col-sm-7 margin_top">                      
+                            <p text->We ensure safe operations that protect the environment and benefit local communities.</p>
+                            <p>We engage stakeholders and maximize opportunities for local business, create and provide employment opportunities for the communities we operate in, and invest in community programs.</p>
+                            <p>Clear communications with the local communities regarding our operations is carried out through a consultation process with advisory committees.</p>
+                            <p>Public consultation open houses are held regularly in the communities of Sanzule which are near our GEL Pipeline landing Project.</p>
+                            <!-- <div class="logo margin_top"><img src="<?php //echo $baseUrl; ?>/assets/images/sesubsea_logo.svg" title="Se Subsea"  alt="Se Subsea" class="img-responsive"></div> -->
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 </section>
 
-<?php require 'template/front/submenu.php'; ?>
+<?php //require 'template/front/submenu.php'; ?>
 
 
 

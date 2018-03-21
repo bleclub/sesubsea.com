@@ -4,7 +4,7 @@
     $description = 'Se Subsea';
     $keywords = 'Se Subsea';
 
-	$home_selected = "active"; // Menu selected
+	$menu_about = "active"; // Menu selected
     require 'template/front/header.php';
 	// require 'controllers/front/home_page.php';
 ?>
@@ -34,33 +34,41 @@
 
 <!-- Content
 		============================================= -->
-        <section id="content">
+        <section id="content" class="content_page">
          <div class="content-wrap">
-            <div class="container clearfix">
-                <!-- Post Content -->
-                <div class="row">
-                     <!-- Entry Content
-                    ============================================= -->
-                    <div class="col-sm-7 margin_top">
-                        <p class="text-uppercase"><strong>SE Subsea is evolving. We are investing in people, ideas and assets to help move your conventional and subsea projects forward.</strong></p>
-                        <p>SE Subsea has its roots as a Category A Upstream Petroleum Services Company qualified by Ghana’s Petroleum Commission. With our strong indigenous content and presence, SE Subsea has a solid track record in executing projects with our partners and clients in the Ghanaian and African region.</p>
-                        <p>We continue to write our young but proud history. Though our work and investments, we are serving the global market out of Singapore and Accra.</p>
-                        <p>SE Subsea delivers, with distinction.</p>
-                        <!-- <div class="logo margin_top"><img src="<?php //echo $baseUrl; ?>/assets/images/sesubsea_logo.svg" title="Se Subsea"  alt="Se Subsea" class="img-responsive"></div> -->
-                    </div>
-                    <div class="col-sm-5">
-                        <div class="margin_bottom"><img src="<?php echo $baseUrl; ?>/assets/images/about/about_img01.jpg" alt="" class="img-responsive"></div>
-                        <div><img src="<?php echo $baseUrl; ?>/assets/images/about/about_img03.jpg" alt="" class="img-responsive"></div>
-                    </div>
+            <div class="container-fluid clearfix">
+                
+                <div class="col-sm-3 sub_menupage">
+                    <ul>
+                        <li><a href="<?php echo $baseUrl."/".$lang; ?>/about" >Overview</a></li>
+                        <li class="active"><a href="#">Our History</a></li>
+                    </ul>
+                </div>
 
-
+                <div class="col-sm-9">
+                        <!-- Post Content -->
+                        <div class="row">
+                            <!-- Entry Content
+                            ============================================= -->
+                            <div class="col-sm-7 margin_bottom">
+                                <p class="text-uppercase"><strong>SE Subsea is evolving. We are investing in people, ideas and assets to help move your conventional and subsea projects forward.</strong></p>
+                                <p>SE Subsea has its roots as a Category A Upstream Petroleum Services Company qualified by Ghana’s Petroleum Commission. With our strong indigenous content and presence, SE Subsea has a solid track record in executing projects with our partners and clients in the Ghanaian and African region.</p>
+                                <p>We continue to write our young but proud history. Though our work and investments, we are serving the global market out of Singapore and Accra.</p>
+                                <p>SE Subsea delivers, with distinction.</p>
+                                <!-- <div class="logo margin_top"><img src="<?php //echo $baseUrl; ?>/assets/images/sesubsea_logo.svg" title="Se Subsea"  alt="Se Subsea" class="img-responsive"></div> -->
+                            </div>
+                            <div class="col-sm-5">
+                                <div class="margin_bottom"><img src="<?php echo $baseUrl; ?>/assets/images/about/about_img01.jpg" alt="" class="img-responsive"></div>
+                                <div><img src="<?php echo $baseUrl; ?>/assets/images/about/about_img03.jpg" alt="" class="img-responsive"></div>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>
 </section>
 
 
-<?php require 'template/front/submenu.php'; ?>
+<?php //require 'template/front/submenu.php'; ?>
 
 
 

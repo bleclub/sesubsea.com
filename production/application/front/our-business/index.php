@@ -4,7 +4,7 @@
     $description = 'Se Subsea';
     $keywords = 'Se Subsea';
 
-	$home_selected = "active"; // Menu selected
+	$menu_ourbu = "active"; // Menu selected
     require 'template/front/header.php';
 	// require 'controllers/front/home_page.php';
 ?>
@@ -34,29 +34,43 @@
 
 <!-- Content
 		============================================= -->
-        <section id="content">
+        <section id="content" class="content_page">
          <div class="content-wrap">
-            <div class="container clearfix">
-                <!-- Post Content -->
-                <div class="row">
-                    <!-- Entry Content
-                    ============================================= -->
-                    <div class="col-sm-12 margin_top">
-                        <div class="margin_bottom width50"><img src="<?php echo $baseUrl; ?>/assets/images/local_type.svg" alt="" class="img-responsive"></div>                        
-                        <p>We have dedicated local teams with global marine and offshore construction experience. SE Subsea undertakes and delivers marine and T&I projects associated with SURF, Floaters & Moorings, Heavy-lift and Conventional pipelay installations.</p>
-                        <p>SE Subsea delivers, with distinction.</p>
-                        <div class="row">
-                            <div class="margin_top col-sm-6"><img src="<?php echo $baseUrl; ?>/assets/images/our_business/our_business_img01.jpg" alt="" class="img-responsive"></div>
-                            <div class="margin_top col-sm-6"><img src="<?php echo $baseUrl; ?>/assets/images/our_business/our_business_img02.jpg" alt="" class="img-responsive"></div>
+            <div class="container-fluid clearfix">
+
+                <div class="col-sm-3 sub_menupage">
+                    <ul>
+                        <li class="active"><a href="#">What We Do</a></li>
+                        <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business/our-assets">Our Assets</a></li>
+                        <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business/csr">Giving Back(CSR)</a></li>
+                        <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business/qhsse">QHSSE</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-9">
+                    <!-- Post Content -->
+                    <div class="row">
+                        <!-- Entry Content
+                        ============================================= -->
+                        <div class="col-sm-12 margin_top">
+                            <div class="margin_bottom width50"><img src="<?php echo $baseUrl; ?>/assets/images/local_type.svg" alt="" class="img-responsive"></div>                        
+                            <p>We have dedicated local teams with global marine and offshore construction experience. SE Subsea undertakes and delivers marine and T&I projects associated with SURF, Floaters & Moorings, Heavy-lift and Conventional pipelay installations.</p>
+                            <p>SE Subsea delivers, with distinction.</p>
+                            <div class="row">
+                                <div class="margin_top col-sm-6"><img src="<?php echo $baseUrl; ?>/assets/images/our_business/our_business_img01.jpg" alt="" class="img-responsive"></div>
+                                <div class="margin_top col-sm-6"><img src="<?php echo $baseUrl; ?>/assets/images/our_business/our_business_img02.jpg" alt="" class="img-responsive"></div>
+                            </div>
+                            <!-- <div class="logo margin_top"><img src="<?php //echo $baseUrl; ?>/assets/images/sesubsea_logo.svg" title="Se Subsea"  alt="Se Subsea" class="img-responsive"></div> -->
                         </div>
-                        <!-- <div class="logo margin_top"><img src="<?php //echo $baseUrl; ?>/assets/images/sesubsea_logo.svg" title="Se Subsea"  alt="Se Subsea" class="img-responsive"></div> -->
                     </div>
                 </div>
+
+
             </div>
         </div>
 </section>
 
-<?php require 'template/front/submenu.php'; ?>
+<?php //require 'template/front/submenu.php'; ?>
 
 
 
