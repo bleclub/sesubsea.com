@@ -129,11 +129,7 @@ $(document).ready(function () {
     $("#header_slide").owlCarousel({
         items: 1,
         loop:true,
-<<<<<<< HEAD
-        autoplay: false
-=======
         autoplay: true
->>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154
     });
 
     $('.video').parent().click(function () {

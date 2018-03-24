@@ -1,9 +1,6 @@
 
 </div>
 <!-- End Main -->
-<<<<<<< HEAD
-
-=======
 <!-- News and Update Section  -->
 <section id="update" class="update_page">
     <div class="container-fluid">
@@ -48,7 +45,6 @@
         </div>
     </div>
 </section>
->>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154
 <!-- Footer Section -->
 <section class="footer">
 		<div class="container-fluid">
@@ -70,8 +66,6 @@
 	</section>
 
 
-<<<<<<< HEAD
-=======
 
 	<script src="<?php echo $baseUrl; ?>/assets/js/jquery-3.1.0.min.js"></script>
 	<script src="<?php echo $baseUrl; ?>/assets/js/bootstrap.min.js"></script>
@@ -79,4 +73,3 @@
 	<script src="<?php echo $baseUrl; ?>/assets/js/script.js"></script>
 
 
->>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154

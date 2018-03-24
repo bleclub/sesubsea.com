@@ -1,10 +1,6 @@
 <?php
 
 function base_url() {
-<<<<<<< HEAD
-    // return "http://localhost/Vanlop/sesubsea.com/production";
-    return "http://www.sesubsea.com/preview";
-=======
 	$url = 'http://' . $_SERVER['SERVER_NAME'];
 	if(strpos($url,'www.') !== false){
 		return "http://www.sesubsea.com";
@@ -13,7 +9,6 @@ function base_url() {
 	}
     // return "http://192.168.1.103/ProjectWeb/sesubsea.com/production";
     
->>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154
 }
 
 function base_path() {
@@ -35,11 +30,7 @@ return $newstring         = str_replace($string_to_replace , $string_after_repla
 function lang_path(){
 	
 	$languages = array('th', 'en');
-<<<<<<< HEAD
-	$lang = isset($_GET['lang']) ? $_GET['lang'] : "th";
-=======
 	$lang = isset($_GET['lang']) ? $_GET['lang'] : "en";
->>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154
 	// handle language selection
 	if(in_array($lang, $languages)) {
 		return $_SESSION['lang'] = $lang;
@@ -49,8 +40,6 @@ function lang_path(){
 	return isset($_SESSION['lang'], $languages) ? $_SESSION['lang'] : 'th';
 }
 
-<<<<<<< HEAD
-=======
 function translate($text){
 	$db = new database();
 	$option_translate = array(
@@ -66,7 +55,6 @@ function translate($text){
 	}
 }
 
->>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154
 function switch_lg($text)
 {
 	
@@ -82,15 +70,6 @@ function switch_lg($text)
 
 	$dpm = isset($_GET['dpm']) ? "/".$_GET['dpm'] : "";
 	$id = isset($_GET['id']) ? "/".$_GET['id'] : "";
-<<<<<<< HEAD
-	if($_GET['url'] == "home"){
-		return base_url().$dpm."/".$text;
-	} else {
-		return base_url().$dpm."/".$text.$url.$index.$page.$id;
-	}
-	
-}
-=======
 	$status = isset($_GET['status']) ? "/".$_GET['status'] : "";
 	if($_GET['url'] == "home"){
 		return base_url().$dpm."/".$text;
@@ -101,4 +80,3 @@ function switch_lg($text)
 	}
 	
 }
->>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154

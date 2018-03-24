@@ -1,12 +1,7 @@
 <IfModule mod_rewrite.c>
 RewriteEngine on 
-<<<<<<< HEAD
-#RewriteBase /Vanlop/sesubsea.com/production/
-RewriteBase /preview/
-=======
 # RewriteBase /ProjectWeb/sesubsea.com/production/
 RewriteBase /
->>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154
 RewriteRule ^(back)/(.*)/(.*)/(.*)/(.*)$ index.php?onpage=$1&url=$2&a=$3&status=$4&id=$5 [L,QSA]
 RewriteRule ^(front|back)/(.*)/(.*)/(.*)$ index.php?onpage=$1&url=$2&a=$3&id=$4 [L,QSA]
 RewriteRule ^(front|back)/(.*)/(.*)$ index.php?onpage=$1&url=$2&a=$3 [L,QSA]
@@ -18,13 +13,8 @@ RewriteRule ^cms$ index.php?onpage=back&url=home&a=index [L,QSA]
 
 #front
 #RewriteRule ^(th|en)/(.*)/(.*)/(.*)/(.*)$ index.php?onpage=front&lang=$1&url=$2&a=$3&page=$4&id=$5 [L,QSA]
-<<<<<<< HEAD
-RewriteRule ^(th|en)/(.*)/(.*)/(.*)$ index.php?onpage=front&lang=$1&url=$2&a=$3&status=$4 [L,QSA]
-RewriteRule ^(th|en)/(.*)/(.*)$ index.php?onpage=front&lang=$1&url=$2&a=info&id=$3 [L,QSA]
-=======
 RewriteRule ^(th|en)/(.*)/(.*)/(.*)$ index.php?onpage=front&url=$2&a=$3&id=$4&lang=$1 [L,QSA]
 RewriteRule ^(th|en)/(.*)/(.*)$ index.php?onpage=front&url=$2&a=$3&lang=$1 [L,QSA]
->>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154
 RewriteRule ^(th|en)/(.*)$ index.php?onpage=front&url=$2&a=index&lang=$1 [L,QSA]
 RewriteRule ^(th|en)/$ index.php?onpage=front&url=home&a=index&lang=$1 [L,QSA]
 RewriteRule ^(th|en)$ index.php?onpage=front&url=home&a=index&lang=$1 [L,QSA]
@@ -37,10 +27,4 @@ RewriteRule ^(th|en)/(career)/(.*)$ index.php?onpage=front&url=$2&a=$3&lang=$1 [
 
 #contact
 RewriteRule ^(th|en)/(contact)/(.*)/(.*)$ index.php?onpage=front&url=$2&a=$3&status=$4&lang=$1 [L]
-<<<<<<< HEAD
 RewriteRule ^(th|en)/(contact)/(.*)$ index.php?onpage=front&url=$2&a=$3&lang=$1 [L]
-
-</IfModule>
-=======
-RewriteRule ^(th|en)/(contact)/(.*)$ index.php?onpage=front&url=$2&a=$3&lang=$1 [L]
->>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154

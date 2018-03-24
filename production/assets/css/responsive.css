@@ -19,8 +19,6 @@
 
 
 @media screen and (max-width: 1024px) {
-<<<<<<< HEAD
-=======
     .logo{
         float: left;
     }
@@ -31,7 +29,6 @@
     .main-menu{
         display: none;
     }
->>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154
 
     #menu{
         width: 20em;
@@ -50,18 +47,6 @@
     }
 
     section.header_top{
-<<<<<<< HEAD
-        padding: 150px 50px;
-    }
-
-    .header.is-fixed{
-        padding: 0;
-        left: 65px;
-    }
-
-    .header.is-fixed .nav-bars{
-        right: 125px;
-=======
         padding: 100px 50px;
     }
 
@@ -72,7 +57,6 @@
 
     .header.is-fixed .nav-bars {
         right: 50px;
->>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154
     }
 
     .head-text h1 {
@@ -112,18 +96,11 @@
 }
 
 @media screen and (max-width: 768px) {
-<<<<<<< HEAD
-
-    section.header_top {
-        padding: 100px 50px;
-        height: 450px;
-=======
     
 
     section.header_top {
         padding: 100px 50px;
         height: 250px;
->>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154
     }
 
     .logo, #search.alt{
@@ -200,8 +177,6 @@
         margin-right: 15px;
     }
 
-<<<<<<< HEAD
-=======
     .width50{
         width: 80%;
     }
@@ -210,18 +185,13 @@
         padding: 40px 0;
     }
 
->>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154
 }
 
 
 @media screen and (max-width: 740px) {
-<<<<<<< HEAD
-
-=======
     #content.content_page{
         padding: 0;
     }
->>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154
     #menu {
         width: 100%;
         max-width: 100%;
@@ -248,13 +218,8 @@
     }
 
     section.header_top {
-<<<<<<< HEAD
-        padding: 100px 20px;
-        height: 350px;
-=======
         padding: 40px 10px;
         height: auto;
->>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154
     }
 
     .logo {
@@ -297,13 +262,6 @@
     .header.is-fixed {
         padding: 0;
         left: 0;
-<<<<<<< HEAD
-        background-color: #be1e2d;
-    }
-
-    .header.is-fixed .logo {
-        width: 70px;
-=======
         background-color: #fff;
     }
 
@@ -311,16 +269,11 @@
         width: 100px;
         margin-top: 15px;
         margin-bottom: 15px;
->>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154
     }
 
     .header.is-fixed .nav-bars {
         right: 25px;
-<<<<<<< HEAD
-        top: 5px;
-=======
         top: 15px;
->>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154
         width: 25px;
     }
 
@@ -360,8 +313,6 @@
         padding: 0 25px;
     }
 
-<<<<<<< HEAD
-=======
 
     #page-title {
 		padding: 20px 0 25px;
@@ -393,7 +344,6 @@
         background-attachment:unset;
     }
 
->>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154
 }
 
 
@@ -422,12 +372,8 @@
         width: 350%;
     }
 
-<<<<<<< HEAD
-}
-=======
 }
 
 
 
 
->>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154
