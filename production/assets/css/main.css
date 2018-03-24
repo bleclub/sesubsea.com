@@ -1158,7 +1158,7 @@ a.notify-me {
 
 .logo {
     color: #fff;
-    float: left;
+    float: right;
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
@@ -2521,7 +2521,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
   }
 
   .main-menu {
-	float: right;
+	float: left;
 	margin: 50px 0 0;
   }
   .main-menu ul li a {

@@ -23,9 +23,9 @@
 										<li><a href="<?php echo $baseUrl."/".$lang; ?>/about">ABOUT US</a></li>
 										<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business">OUR BUSINESS</a></li>
 										<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-projects">OUR PROJECTS</a></li>
-										<li><a href="#">MEDIA</a></li>
+										<!-- <li><a href="#">MEDIA</a></li> -->
 										<li><a href="#">OUR PEOPLE</a></li>
-										<li><a href="<?php echo $baseUrl."/".$lang; ?>/contact">CONTACTS US</a></li>
+										<li><a href="<?php echo $baseUrl."/".$lang; ?>/contact">CONTACT US</a></li>
 									</ul>
 									<ul class="social-icon">
 										<li><a href="#" class="fa fa-facebook fa-2x"></a></li>
@@ -46,9 +46,9 @@
 										<li><a href="<?php echo $baseUrl."/".$lang; ?>/about"  class="<?php echo @$menu_about; ?>">ABOUT US</a></li>
 										<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business"  class="<?php echo @$menu_ourbu; ?>">OUR BUSINESS</a></li>
 										<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-projects"  class="<?php echo @$menu_ourproj; ?>">OUR PROJECTS</a></li>
-										<li><a href="#" class="<?php echo @$menu_media; ?>">MEDIA</a></li>
+										<!-- <li><a href="#" class="<?php //echo @$menu_media; ?>">MEDIA</a></li> -->
 										<li><a href="#" class="<?php echo @$menu_ourprop; ?>">OUR PEOPLE</a></li>
-										<li><a href="<?php echo $baseUrl."/".$lang; ?>/contact"  class="<?php echo @$menu_contact; ?>">CONTACTS US</a></li>
+										<li><a href="<?php echo $baseUrl."/".$lang; ?>/contact"  class="<?php echo @$menu_contact; ?>">CONTACT US</a></li>
 									</ul>
 								</div>
 
