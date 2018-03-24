@@ -4,7 +4,11 @@
     $description = 'Se Subsea';
     $keywords = 'Se Subsea';
 
+<<<<<<< HEAD
 	$home_selected = "active"; // Menu selected
+=======
+	$menu_home = "active"; // Menu selected
+>>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154
     require 'template/front/header.php';
 	// require 'controllers/front/home_page.php';
 ?>
@@ -25,7 +29,11 @@
             <div class="">
                 <div class="owl-carousel" id="header_slide">
                     <div class="slide1 bg">
+<<<<<<< HEAD
                         <!-- <div class="overlay"></div> -->
+=======
+                        <div class="overlay"></div>
+>>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154
                         <img src="<?php echo $baseUrl; ?>/assets/images/slider1.jpg" alt="">
                         <div class="head-text">
                             <div class="col-md-8 col-md-offset-3">
@@ -39,7 +47,11 @@
 
                     <div class="slide2 bg">
                         <div class="overlay"></div>
+<<<<<<< HEAD
                         <img src="<?php echo $baseUrl; ?>/assets/images/slider1.jpg" alt="">								
+=======
+                        <img src="<?php echo $baseUrl; ?>/assets/images/slider2.jpg" alt="">								
+>>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154
                         <div class="head-text">
                             <div class="col-md-8 col-md-offset-3">
                                 <h1>SAFETY IS AT THE HEART <span>OF ALL OUR OPERATIONS</span></h1>									
@@ -52,7 +64,11 @@
 
                     <div class="slide3 bg">
                         <div class="overlay"></div>
+<<<<<<< HEAD
                         <img src="<?php echo $baseUrl; ?>/assets/images/slider1.jpg" alt="">								
+=======
+                        <img src="<?php echo $baseUrl; ?>/assets/images/slider3.jpg" alt="">								
+>>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154
                         <div class="head-text">
                             <div class="col-md-8 col-md-offset-3">
                                 <h1>SAFETY IS AT THE HEART <span>OF ALL OUR OPERATIONS</span></h1>										
@@ -68,6 +84,7 @@
     </div>
 </section>
 
+<<<<<<< HEAD
 <!-- About Section Block -->
 <section id="about" class="about_page">
     <div class="container-fluid">
@@ -124,19 +141,27 @@
     
     </div>
     </section>
+=======
+<?php require 'template/front/submenu.php'; ?>
+>>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154
 
 
 <!-- Video Section -->
 <section id="video_section">
     <div class="wrapper">
         <div class="overlay"></div>
+<<<<<<< HEAD
         <video class="video" poster="<?php echo $baseUrl; ?>/assets/video/poster_video.jpg" muted>
+=======
+        <video class="video" poster="<?php echo $baseUrl; ?>/assets/video/poster_video.jpg">
+>>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154
             <source src="<?php echo $baseUrl; ?>/assets/video/corporate_video.mp4" type="video/mp4" />
         </video>
         <div class="playpause"></div>
     </div>
 </section>
 
+<<<<<<< HEAD
 <!-- News and Update Section  -->
 <section id="update" class="update_page">
     <div class="container-fluid">
@@ -181,15 +206,20 @@
         </div>
     </div>
 </section>
+=======
+>>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154
 <!-- End Content -->
 
 <!-- Footer Section -->
 <?php require 'template/front/footer.php'; ?>
 
+<<<<<<< HEAD
 <script src="<?php echo $baseUrl; ?>/assets/js/jquery-3.1.0.min.js"></script>
 <script src="<?php echo $baseUrl; ?>/assets/js/bootstrap.min.js"></script>
 <script src="<?php echo $baseUrl; ?>/assets/js/owl.carousel.min.js"></script>
 <script src="<?php echo $baseUrl; ?>/assets/js/script.js"></script>
+=======
+>>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154
 
 </body>
 </html>

@@ -1,7 +1,54 @@
 
 </div>
 <!-- End Main -->
+<<<<<<< HEAD
 
+=======
+<!-- News and Update Section  -->
+<section id="update" class="update_page">
+    <div class="container-fluid">
+        <div class="col-sm-6">
+            <div class="block_news">
+                <h3>COMPANY<br><span>NEWS</span></h3>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <div class="date_news">02 OCT 2017</div>
+                            <div class="title_news">Se Subsea announced contracts awarded to Subsea Integration Alliance</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="date_news">06 SEP 2017</div>
+                            <div class="title_news">Se Subsea awards letter of intent for new reel-lay vessel </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="date_news">26 JUL 2017</div>
+                            <div class="title_news">Subsea 7 S.A. Announces Second Quarter 2017 Results</div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="viewall"><a href="#">View all</a></div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="block_social">
+                <h3 class="red">FOLLOW<br><span>US</span></h3>
+                <ul class="social-icon red">
+                    <li><a href="#" class="fa fa-facebook fa-2x"></a></li>
+                    <li><a href="#" class="fa fa-twitter fa-2x"></a></li>
+                    <li><a href="#" class="fa fa-instagram fa-2x"></a></li>
+                    <li><a href="#" class="fa fa-youtube fa-2x"></a></li>
+                    <li><a href="#" class="fa fa-envelope fa-2x"></a></li>
+                    <li><a href="#" class="fa fa-phone fa-2x"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+>>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154
 <!-- Footer Section -->
 <section class="footer">
 		<div class="container-fluid">
@@ -23,3 +70,13 @@
 	</section>
 
 
+<<<<<<< HEAD
+=======
+
+	<script src="<?php echo $baseUrl; ?>/assets/js/jquery-3.1.0.min.js"></script>
+	<script src="<?php echo $baseUrl; ?>/assets/js/bootstrap.min.js"></script>
+	<script src="<?php echo $baseUrl; ?>/assets/js/owl.carousel.min.js"></script>
+	<script src="<?php echo $baseUrl; ?>/assets/js/script.js"></script>
+
+
+>>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154

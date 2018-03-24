@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 $yearthai = date('Y')+543;
@@ -35,6 +36,11 @@ if($row_log > 0 ){
 	$query_log = $db->insert("bt_statview", $value_log);
 }
 
+=======
+
+<?php
+    require 'controllers/front/header.php';
+>>>>>>> 60a7c9787a9b40560859b6a412b866de12b71154
 ?>
 
 
