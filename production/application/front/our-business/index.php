@@ -53,7 +53,8 @@
                         <!-- Entry Content
                         ============================================= -->
                         <div class="col-sm-12 margin_top">
-                            <div class="margin_bottom width50"><img src="<?php echo $baseUrl; ?>/assets/images/local_type.svg" alt="" class="img-responsive"></div>                        
+                            <!-- <div class="margin_bottom width50"><img src="<?php echo $baseUrl; ?>/assets/images/local_type.svg" alt="" class="img-responsive"></div>-->
+                            <p class="text-uppercase"><strong>Local dedication global standards</strong></p>
                             <p>We have dedicated local teams with global marine and offshore construction experience. SE Subsea undertakes and delivers marine and T&I projects associated with SURF, Floaters & Moorings, Heavy-lift and Conventional pipelay installations.</p>
                             <p>SE Subsea delivers, with distinction.</p>
                             <div class="row">

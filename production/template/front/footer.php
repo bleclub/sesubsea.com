@@ -51,11 +51,11 @@
 			<div class="row">
 				<div class="col-md-8">
 					<ul class="footer-bottom">
-						<li><a href="#">Legal</a></li>
-						<li><a href="#">Accessibility</a></li>
-						<li><a href="#">Privacy Policy and Cookies</a></li>
-						<li><a href="#">Site Map</a></li>
-						<li><a href="#">Contect Us</a></li>
+						<!-- <li><a href="#">Legal</a></li>
+						<li><a href="#">Accessibility</a></li> -->
+						<li><a href="<?php echo $baseUrl."/".$lang; ?>/policy">Privacy Policy and Cookies</a></li>
+						<li><a href="<?php echo $baseUrl."/".$lang; ?>/sitemap">Site Map</a></li>
+						<li><a href="<?php echo $baseUrl."/".$lang; ?>/contact">Contact Us</a></li>
 					</ul>
 				</div>
 				<div class="col-md-4">

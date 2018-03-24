@@ -53,7 +53,8 @@
                             <!-- Entry Content
                             ============================================= -->
                             <div class="col-sm-12 margin_top">
-                                <div class="margin_bottom width50"><img src="<?php echo $baseUrl; ?>/assets/images/assets_type.png" alt="" class="img-responsive"></div>                        
+                                <!-- <div class="margin_bottom width50"><img src="<?php echo $baseUrl; ?>/assets/images/assets_type.png" alt="" class="img-responsive"></div>-->
+                                <p class="text-uppercase"><strong>bridging capabilties with our assets</strong></p>
                                 <p>The S-Lay pipeline installation vessel, SE Centurion, enhances SE Subsea’s solutions and capabilities for both shallow and deepwater.</p>
                                 <p>Key features include:</p>
                                 <ul>  

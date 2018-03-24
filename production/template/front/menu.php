@@ -13,15 +13,31 @@
 										<img src="<?php echo $baseUrl; ?>/assets/images/nav-icon.svg" class="img-responsive" alt="Collapsable Navbar">
 								</a>
 
-								<!-- Menu -->
+								<!-- Mobile Menu -->
 								<nav id="menu">
 									<header class="major">
 										<a href="<?php echo $baseUrl."/".$lang; ?>"><img src="<?php echo $baseUrl; ?>/assets/images/sesubsea_logo.svg" title="Se Subsea"  alt="Se Subsea" class="img-responsive"></a>
 									</header>
 									<ul>
 										<li><a href="<?php echo $baseUrl."/".$lang; ?>">HOME</a></li>
-										<li><a href="<?php echo $baseUrl."/".$lang; ?>/about">ABOUT US</a></li>
-										<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business">OUR BUSINESS</a></li>
+										<li>
+											<a href="<?php echo $baseUrl."/".$lang; ?>/about">ABOUT US</a>
+											<i id="tg_m1" class="fa fa-angle-down fa-2x"></i>											
+											<ul class="sub-menu" id="sub-menu1">
+												<li><a href="<?php echo $baseUrl."/".$lang; ?>/about">Overview</a></li>	
+												<li><a href="<?php echo $baseUrl."/".$lang; ?>/about/our-history">Our History</a></li>	
+											</ul>
+										</li>
+										<li>
+											<a href="<?php echo $baseUrl."/".$lang; ?>/our-business">OUR BUSINESS</a>
+											<i id="tg_m2" class="tg_m fa fa-angle-down fa-2x"></i>
+											<ul class="sub-menu" id="sub-menu2">
+												<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business">What we do</a></li>	
+												<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business/our-assets">Our Assets</a></li>	
+												<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business/csr">Giving Back(CSR)</a></li>	
+												<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business/qhsse">QHSSE</a></li>	
+											</ul>
+										</li>
 										<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-projects">OUR PROJECTS</a></li>
 										<!-- <li><a href="#">MEDIA</a></li> -->
 										<li><a href="#">OUR PEOPLE</a></li>
@@ -40,11 +56,28 @@
 									<img src="<?php echo $baseUrl; ?>/assets/images/sesubsea_logo.svg" alt="Se Subsea" title="Se Subsea" class="img-responsive">
 								</a>
 
+								<!-- Desktop Main menu -->
 								<div class="main-menu">
 									<ul>
 										<li><a href="<?php echo $baseUrl."/".$lang; ?>" class="<?php echo @$menu_home; ?>">HOME</a></li>
-										<li><a href="<?php echo $baseUrl."/".$lang; ?>/about"  class="<?php echo @$menu_about; ?>">ABOUT US</a></li>
-										<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business"  class="<?php echo @$menu_ourbu; ?>">OUR BUSINESS</a></li>
+										<li>
+											<a href="<?php echo $baseUrl."/".$lang; ?>/about"  class="<?php echo @$menu_about; ?>">ABOUT US</a>
+											<i class="fa fa-angle-down fa-2x"></i>											
+											<ul class="sub-menu">
+												<li><a href="<?php echo $baseUrl."/".$lang; ?>/about">Overview</a></li>	
+												<li><a href="<?php echo $baseUrl."/".$lang; ?>/about/our-history">Our History</a></li>	
+											</ul>
+										</li>
+										<li>
+											<a href="<?php echo $baseUrl."/".$lang; ?>/our-business"  class="<?php echo @$menu_ourbu; ?>">OUR BUSINESS</a>
+											<i class="fa fa-angle-down fa-2x"></i>											
+											<ul  class="sub-menu">
+												<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business">What we do</a></li>	
+												<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business/our-assets">Our Assets</a></li>	
+												<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business/csr">Giving Back(CSR)</a></li>	
+												<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business/qhsse">QHSSE</a></li>	
+											</ul>
+										</li>
 										<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-projects"  class="<?php echo @$menu_ourproj; ?>">OUR PROJECTS</a></li>
 										<!-- <li><a href="#" class="<?php //echo @$menu_media; ?>">MEDIA</a></li> -->
 										<li><a href="#" class="<?php echo @$menu_ourprop; ?>">OUR PEOPLE</a></li>
@@ -56,18 +89,6 @@
 						</header>								
 					</div>
 				</div>
-
-				
-
-
-
-				<!-- <div class="row">
-					<div id="search" class="alt">
-						<form method="post" action="#">
-							<input name="query" id="query" placeholder="Search" type="text" class="form-control">
-						</form>
-					</div>
-				</div> -->
 
 			</div>
 		</section>

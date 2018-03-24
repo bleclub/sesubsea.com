@@ -132,6 +132,36 @@ $(document).ready(function () {
         autoplay: true
     });
 
+
+
+
+    $( "#tg_m1" ).click(function() {
+        $( "#sub-menu1" ).toggle( 300, function() {
+            if ($('#tg_m1.fa').hasClass( "fa-angle-down" ) ) {
+                $('#tg_m1.fa').removeClass('fa-angle-down');
+                $('#tg_m1.fa').addClass('fa-angle-up');
+            } else {
+                $('#tg_m1.fa').removeClass('fa-angle-up');
+                $('#tg_m1.fa').addClass('fa-angle-down');
+            }
+        });
+
+    });
+
+    $( "#tg_m2" ).click(function() {
+        $( "#sub-menu2" ).toggle( 300, function() {
+            if ($('#tg_m2.fa').hasClass( "fa-angle-down" ) ) {
+                $('#tg_m2.fa').removeClass('fa-angle-down');
+                $('#tg_m2.fa').addClass('fa-angle-up');
+            } else {
+                $('#tg_m2.fa').removeClass('fa-angle-up');
+                $('#tg_m2.fa').addClass('fa-angle-down');
+            }
+        });
+    });
+
+
+
     $('.video').parent().click(function () {
         if($(this).children(".video").get(0).paused){
             $(this).children(".video").get(0).play();
