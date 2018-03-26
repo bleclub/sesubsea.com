@@ -398,6 +398,7 @@
         position: relative;
         top: -40px;
         cursor: pointer;        
+        display: block;
     }
     .h2.pull{
         width: 100%;
