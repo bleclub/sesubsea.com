@@ -25,7 +25,7 @@
             <div class="">
                 <div class="owl-carousel" id="header_slide">
                     <div class="slide1 bg">
-                        <div class="overlay"></div>
+                        <!-- <div class="overlay"></div> -->
                         <img src="<?php echo $baseUrl; ?>/assets/images/slider1.jpg" alt="">
                         <div class="head-text">
                             <div class="col-md-8 col-md-offset-3">
@@ -38,7 +38,7 @@
                     </div>
 
                     <div class="slide2 bg">
-                        <div class="overlay"></div>
+                        <!-- <div class="overlay"></div> -->
                         <img src="<?php echo $baseUrl; ?>/assets/images/slider2.jpg" alt="">								
                         <div class="head-text">
                             <div class="col-md-8 col-md-offset-3">
@@ -51,7 +51,7 @@
                     </div>
 
                     <div class="slide3 bg">
-                        <div class="overlay"></div>
+                        <!-- <div class="overlay"></div> -->
                         <img src="<?php echo $baseUrl; ?>/assets/images/slider3.jpg" alt="">								
                         <div class="head-text">
                             <div class="col-md-8 col-md-offset-3">
