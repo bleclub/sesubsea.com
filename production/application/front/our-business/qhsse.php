@@ -20,12 +20,12 @@
 <!-- Page Title
 ============================================= -->
 <section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('<?php echo $baseUrl; ?>/assets/images/bg/bg_top03.jpg'); background-size: cover; background-position: center center;" data-stellar-background-ratio="0.4">
-    <div class="container clearfix">
-        <h1>Our Business</h1>
-        <span>QHSSE</span>
+    <div class="container-fluid clearfix">
+        <h1>QHSSE</h1>
+        <span>Our Business</span>
         <ol class="breadcrumb">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Our Business</a></li>
+            <li><a href="<?php echo $baseUrl."/".$lang; ?>">Home</a></li>
+            <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business">Our Business</a></li>
             <li class="active">QHSSE</li>
         </ol>
     </div>

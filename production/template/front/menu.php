@@ -21,15 +21,17 @@
 									<ul>
 										<li><a href="<?php echo $baseUrl."/".$lang; ?>">HOME</a></li>
 										<li>
-											<a href="<?php echo $baseUrl."/".$lang; ?>/about">ABOUT US</a>
+											<a href="#">ABOUT US</a>
 											<i id="tg_m1" class="fa fa-angle-down fa-2x"></i>											
 											<ul class="sub-menu" id="sub-menu1">
 												<li><a href="<?php echo $baseUrl."/".$lang; ?>/about">Overview</a></li>	
-												<li><a href="<?php echo $baseUrl."/".$lang; ?>/about/our-history">Our History</a></li>	
+												<li><a href="<?php echo $baseUrl."/".$lang; ?>/about/our-history">Our History</a></li>
+												<li><a href="<?php echo $baseUrl."/".$lang; ?>/about/vision-mission">vision & mission </a></li>
+												<li><a href="<?php echo $baseUrl."/".$lang; ?>/about/values">values</a></li>
 											</ul>
 										</li>
 										<li>
-											<a href="<?php echo $baseUrl."/".$lang; ?>/our-business">OUR BUSINESS</a>
+											<a href="#">OUR BUSINESS</a>
 											<i id="tg_m2" class="tg_m fa fa-angle-down fa-2x"></i>
 											<ul class="sub-menu" id="sub-menu2">
 												<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business">What we do</a></li>	
@@ -38,9 +40,16 @@
 												<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business/qhsse">QHSSE</a></li>	
 											</ul>
 										</li>
-										<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-projects">OUR PROJECTS</a></li>
+										<li>
+											<a href="#">OUR PROJECTS</a>
+											<i id="tg_m3" class="tg_m fa fa-angle-down fa-2x"></i>
+											<ul class="sub-menu" id="sub-menu3">
+												<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-projects">Track record</a></li>	
+												<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-projects/where-we-operate">Where we operate</a></li>	
+											</ul>
+										</li>
 										<!-- <li><a href="#">MEDIA</a></li> -->
-										<li><a href="#">OUR PEOPLE</a></li>
+										<!-- <li><a href="#">OUR PEOPLE</a></li> -->
 										<li><a href="<?php echo $baseUrl."/".$lang; ?>/contact">CONTACT US</a></li>
 									</ul>
 									<ul class="social-icon">
@@ -61,15 +70,17 @@
 									<ul>
 										<li><a href="<?php echo $baseUrl."/".$lang; ?>" class="<?php echo @$menu_home; ?>">HOME</a></li>
 										<li>
-											<a href="<?php echo $baseUrl."/".$lang; ?>/about"  class="<?php echo @$menu_about; ?>">ABOUT US</a>
+											<a href="#"  class="<?php echo @$menu_about; ?>">ABOUT US</a>
 											<i class="fa fa-angle-down fa-2x"></i>											
 											<ul class="sub-menu">
 												<li><a href="<?php echo $baseUrl."/".$lang; ?>/about">Overview</a></li>	
 												<li><a href="<?php echo $baseUrl."/".$lang; ?>/about/our-history">Our History</a></li>	
+												<li><a href="<?php echo $baseUrl."/".$lang; ?>/about/vision-mission">vision & mission </a></li>
+												<li><a href="<?php echo $baseUrl."/".$lang; ?>/about/values">values</a></li>
 											</ul>
 										</li>
 										<li>
-											<a href="<?php echo $baseUrl."/".$lang; ?>/our-business"  class="<?php echo @$menu_ourbu; ?>">OUR BUSINESS</a>
+											<a href="#"  class="<?php echo @$menu_ourbu; ?>">OUR BUSINESS</a>
 											<i class="fa fa-angle-down fa-2x"></i>											
 											<ul  class="sub-menu">
 												<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business">What we do</a></li>	
@@ -78,9 +89,16 @@
 												<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business/qhsse">QHSSE</a></li>	
 											</ul>
 										</li>
-										<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-projects"  class="<?php echo @$menu_ourproj; ?>">OUR PROJECTS</a></li>
+										<li>
+											<a href="#"  class="<?php echo @$menu_ourproj; ?>">OUR PROJECTS</a>
+											<i class="fa fa-angle-down fa-2x"></i>	
+											<ul class="sub-menu">
+												<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-projects">Track record</a></li>	
+												<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-projects/where-we-operate">Where we operate</a></li>	
+											</ul>
+										</li>
 										<!-- <li><a href="#" class="<?php //echo @$menu_media; ?>">MEDIA</a></li> -->
-										<li><a href="#" class="<?php echo @$menu_ourprop; ?>">OUR PEOPLE</a></li>
+										<!-- <li><a href="#" class="<?php //echo @$menu_ourprop; ?>">OUR PEOPLE</a></li> -->
 										<li><a href="<?php echo $baseUrl."/".$lang; ?>/contact"  class="<?php echo @$menu_contact; ?>">CONTACT US</a></li>
 									</ul>
 								</div>

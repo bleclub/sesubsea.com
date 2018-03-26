@@ -20,11 +20,11 @@
 <!-- Page Title
 ============================================= -->
 <section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('<?php echo $baseUrl; ?>/assets/images/about/about_top_bg.jpg'); background-size: cover; background-position: center center;" data-stellar-background-ratio="0.4">
-    <div class="container clearfix">
-        <h1>About Us</h1>
-        <span>Overview</span>
+    <div class="container-fluid clearfix">
+        <h1>Overview</h1>
+        <span>About Us</span>
         <ol class="breadcrumb">
-            <li><a href="#">Home</a></li>
+            <li><a href="<?php echo $baseUrl."/".$lang; ?>">Home</a></li>
             <li><a href="#">About Us</a></li>
             <li class="active">Overview</li>
         </ol>
@@ -42,6 +42,8 @@
                     <ul>
                         <li class="active"><a href="#" >Overview</a></li>
                         <li><a href="<?php echo $baseUrl."/".$lang; ?>/about/our-history">Our History</a></li>
+                        <li><a href="<?php echo $baseUrl."/".$lang; ?>/about/vision-mission" >Vision and Mission</a></li>
+                        <li><a href="<?php echo $baseUrl."/".$lang; ?>/about/values">Values</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-9">

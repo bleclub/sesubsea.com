@@ -44,6 +44,7 @@
             <h2>Our<br><span>Projects</span></h2>
             <ul>
                 <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-projects">Track Record</a></li>
+                <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-projects">Where we operate</a></li>
             </ul>
             <span class="thumb_overlay"></span>            
             </div>

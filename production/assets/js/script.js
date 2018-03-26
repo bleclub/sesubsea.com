@@ -160,6 +160,55 @@ $(document).ready(function () {
         });
     });
 
+    $( "#tg_m3" ).click(function() {
+        $( "#sub-menu3" ).toggle( 300, function() {
+            if ($('#tg_m3.fa').hasClass( "fa-angle-down" ) ) {
+                $('#tg_m3.fa').removeClass('fa-angle-down');
+                $('#tg_m3.fa').addClass('fa-angle-up');
+            } else {
+                $('#tg_m3.fa').removeClass('fa-angle-up');
+                $('#tg_m3.fa').addClass('fa-angle-down');
+            }
+        });
+    });
+
+
+
+    $( "#foot_m1, #foot_fa1" ).click(function() {
+        $( "#foot_sub1" ).toggle( 300, function() {
+            if ($('#foot_fa1.fa').hasClass( "fa-angle-down" ) ) {
+                $('#foot_fa1.fa').removeClass('fa-angle-down');
+                $('#foot_fa1.fa').addClass('fa-angle-up');
+            } else {
+                $('#foot_fa1.fa').removeClass('fa-angle-up');
+                $('#foot_fa1.fa').addClass('fa-angle-down');
+            }
+        });
+    });
+
+    $( "#foot_m2, #foot_fa2" ).click(function() {
+        $( "#foot_sub2" ).toggle( 300, function() {
+            if ($('#foot_fa2.fa').hasClass( "fa-angle-down" ) ) {
+                $('#foot_fa2.fa').removeClass('fa-angle-down');
+                $('#foot_fa2.fa').addClass('fa-angle-up');
+            } else {
+                $('#foot_fa2.fa').removeClass('fa-angle-up');
+                $('#foot_fa2.fa').addClass('fa-angle-down');
+            }
+        });
+    });
+
+    $( "#foot_m3, #foot_fa3" ).click(function() {
+        $( "#foot_sub3" ).toggle( 300, function() {
+            if ($('#foot_fa3.fa').hasClass( "fa-angle-down" ) ) {
+                $('#foot_fa3.fa').removeClass('fa-angle-down');
+                $('#foot_fa3.fa').addClass('fa-angle-up');
+            } else {
+                $('#foot_fa3.fa').removeClass('fa-angle-up');
+                $('#foot_fa3.fa').addClass('fa-angle-down');
+            }
+        });
+    });
 
 
     $('.video').parent().click(function () {

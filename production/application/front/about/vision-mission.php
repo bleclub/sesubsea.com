@@ -1,6 +1,6 @@
 <!-- Header Section -->
 <?php
-    $title = 'Our History - Se Subsea';
+    $title = 'Our Vision & Mission - Se Subsea';
     $description = 'Se Subsea';
     $keywords = 'Se Subsea';
 
@@ -19,14 +19,14 @@
 <!-- Content Section -->
 <!-- Page Title
 ============================================= -->
-<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('<?php echo $baseUrl; ?>/assets/images/about/about_top_bg02.jpg'); background-size: cover; background-position: center center;" data-stellar-background-ratio="0.4">
+<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('<?php echo $baseUrl; ?>/assets/images/about/about_top_bg03.jpg'); background-size: cover; background-position: center center;" data-stellar-background-ratio="0.4">
     <div class="container-fluid clearfix">
-        <h1>Our History</h1>
+        <h1>Our Vision and Mission</h1>
         <span>About Us</span>
         <ol class="breadcrumb">
             <li><a href="<?php echo $baseUrl."/".$lang; ?>">Home</a></li>
             <li><a href="<?php echo $baseUrl."/".$lang; ?>/about">About Us</a></li>
-            <li class="active">Our History</li>
+            <li class="active">Our Vision and Mission</li>
         </ol>
     </div>
 <div class="overlay"></div>
@@ -41,8 +41,8 @@
                 <div class="col-sm-3 sub_menupage">
                     <ul>
                         <li><a href="<?php echo $baseUrl."/".$lang; ?>/about" >Overview</a></li>
-                        <li  class="active"><a href="#">Our History</a></li>
-                        <li><a href="<?php echo $baseUrl."/".$lang; ?>/about/vision-mission" >Vision and Mission</a></li>
+                        <li><a href="<?php echo $baseUrl."/".$lang; ?>/about/our-history">Our History</a></li>
+                        <li class="active"><a href="#" >Vision and Mission</a></li>
                         <li><a href="<?php echo $baseUrl."/".$lang; ?>/about/values">Values</a></li>
                     </ul>
                 </div>
@@ -52,16 +52,11 @@
                         <div class="row">
                             <!-- Entry Content
                             ============================================= -->
-                            <div class="col-sm-7 margin_bottom">
-                                <p class="text-uppercase"><strong>SE Subsea is evolving. We are investing in people, ideas and assets to help move your conventional and subsea projects forward.</strong></p>
-                                <p>SE Subsea has its roots as a Category A Upstream Petroleum Services Company qualified by Ghana’s Petroleum Commission. With our strong indigenous content and presence, SE Subsea has a solid track record in executing projects with our partners and clients in the Ghanaian and African region.</p>
-                                <p>We continue to write our young but proud history. Though our work and investments, we are serving the global market out of Singapore and Accra.</p>
-                                <p>SE Subsea delivers, with distinction.</p>
+                            <div class="col-sm-12 ">
+                                <p class="margin_bottom text-uppercase"><strong>We have a Vision – to be the preferred marine contractor recognised by our clients worldwide.</strong></p>
+                                <p>We will achieve our Vision with our Mission – to deliver integrated offshore construction and marine solutions to meet the changing needs of our clients in the Energy and Offshore Industry across the globe.</p>
                                 <!-- <div class="logo margin_top"><img src="<?php //echo $baseUrl; ?>/assets/images/sesubsea_logo.svg" title="Se Subsea"  alt="Se Subsea" class="img-responsive"></div> -->
-                            </div>
-                            <div class="col-sm-5">
-                                <div class="margin_bottom"><img src="<?php echo $baseUrl; ?>/assets/images/about/about_img01.jpg" alt="" class="img-responsive"></div>
-                                <div><img src="<?php echo $baseUrl; ?>/assets/images/about/about_img03.jpg" alt="" class="img-responsive"></div>
+                                <div><img src="<?php echo $baseUrl; ?>/assets/images/about/about_img01.jpg" alt="" class="img-responsive"></div>
                             </div>
                         </div>
                 </div>

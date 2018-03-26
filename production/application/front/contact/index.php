@@ -20,11 +20,11 @@
 <!-- Page Title
 ============================================= -->
 <section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('<?php echo $baseUrl; ?>/assets/images/about/about_top_bg.jpg'); background-size: cover; background-position: center center;" data-stellar-background-ratio="0.4">
-    <div class="container clearfix">
+    <div class="container-fluid clearfix">
         <h1>Contact Us</h1>
         <!-- <span>Overview</span> -->
         <ol class="breadcrumb">
-            <li><a href="<?php echo $baseUrl; ?>">Home</a></li>
+            <li><a href="<?php echo $baseUrl."/".$lang; ?>">Home</a></li>
             <li class="active"><a href="#">Contact Us</a></li>
         </ol>
     </div>
@@ -45,10 +45,13 @@
                         <!-- Entry Content
                         ============================================= -->
                         <div class="col-sm-7">
-                            <div class="logo margin_top"><img src="<?php echo $baseUrl; ?>/assets/images/sesubsea_logo.svg" title="Se Subsea"  alt="Se Subsea" class="img-responsive"></div>
+                            <div class="logo margin_top pull-left"><img src="<?php echo $baseUrl; ?>/assets/images/sesubsea_logo.svg" title="Se Subsea"  alt="Se Subsea" class="img-responsive"></div>
                             <p> &nbsp;</p>
                             <p> &nbsp;</p>
-                            <p>Se Subsea Co.,Ltd. <br>5611 Singapore Singapore <br>Singapore</p><p>Tel: +31 15 268 1800</p>
+                            <p>
+                            SE SUBSEA PTE LTD.<br>
+                            103 Irrawaddy Rd, #02-07 Singapore 329566<br>
+                            <br>T: +65 6224 0181<br>F: +65 6224 0102<br>E: info@sesubsea.com</p>
                         </div>
                     </div>
             </div>
