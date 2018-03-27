@@ -55,6 +55,8 @@
                             <div class="col-sm-12 ">
                                 <p class="margin_bottom text-uppercase"><strong>We have a Vision – to be the preferred marine contractor recognised by our clients worldwide.</strong></p>
                                 <p>We will achieve our Vision with our Mission – to deliver integrated offshore construction and marine solutions to meet the changing needs of our clients in the Energy and Offshore Industry across the globe.</p>
+                                <p>&nbsp;</p>
+                                <p class="text-uppercase"><strong>SE Subsea delivers, with distinction.</strong></p>
                                 <!-- <div class="logo margin_top"><img src="<?php //echo $baseUrl; ?>/assets/images/sesubsea_logo.svg" title="Se Subsea"  alt="Se Subsea" class="img-responsive"></div> -->
                                 <div><img src="<?php echo $baseUrl; ?>/assets/images/about/about_img01.jpg" alt="" class="img-responsive"></div>
                             </div>

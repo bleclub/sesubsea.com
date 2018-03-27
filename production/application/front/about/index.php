@@ -56,11 +56,16 @@
                         <!-- Entry Content
                         ============================================= -->
                         <div class="col-sm-7">
-                            <p>We have and continue to serve the Ghanaian and African oil and gas industry with distinction. Today, SE Subsea is evolving into an exciting company with a mission: to deliver integrated [offshore construction and] marine solutions to meet the changing needs of our clients in the Energy and Offshore Industry across the globe.</p>
+                        <p>SE Subsea is evolving into an exciting company with a mission: to deliver integrated offshore construction and marine solutions to meet the changing needs of our clients in the Energy and Offshore Industry across the globe.  Backed by an impeccable track record, SE Subsea undertakes and delivers marine solutions and T&I projects associated with SURF and Conventional pipelay installations.</p>
+                        <p>To bring cost-effective solutions to our clients, SE Subsea is investing in people, ideas and assets to drive our mission. We have acquired the Star Centurion – a deepwater construction and pipelay vessel to strengthen our technical capabilities to  offer a wider range of services when required.</p>
+                        <p>Operating within a challenging industry, SE Subsea is committed to protecting the health and safety of all persons involved with its activities, and thus achieving a safe and incident free workplace, with high standards of environmental responsibility and pollution prevention.</p>
+                        <p>&nbsp;</p>
+                        <p class="text-uppercase"><strong>SE Subsea delivers, with distinction.</strong></p>
+                            <!-- <p>We have and continue to serve the Ghanaian and African oil and gas industry with distinction. Today, SE Subsea is evolving into an exciting company with a mission: to deliver integrated [offshore construction and] marine solutions to meet the changing needs of our clients in the Energy and Offshore Industry across the globe.</p>
                             <p>Backed by an impeccable track record, SE Subsea undertakes and delivers marine and T&I projects associated with SURF, Floaters & Moorings, Heavy-lift and Conventional pipelay installations.</p>
                             <p>This range of services, underpinned by a fleet of modern subsea construction and installation vessels and specialized equipment, enables SE Subsea to deliver cost-effective solutions to meet individual client needs.</p>
                             <p>Operating within a challenging industry, SE Subsea is committed to protecting the health and safety of all persons involved with its activities, and thus achieving a safe and incident free workplace, with high standards of environmental responsibility and pollution prevention.</p>
-                            <p>SE Subsea delivers, with distinction.</p>
+                            <p>SE Subsea delivers, with distinction.</p> -->
                             <div class="logo margin_top"><img src="<?php echo $baseUrl; ?>/assets/images/sesubsea_logo.svg" title="Se Subsea"  alt="Se Subsea" class="img-responsive"></div>
                         </div>
                     </div>

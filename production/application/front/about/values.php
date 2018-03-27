@@ -62,7 +62,6 @@
                                 <div class="margin_bottom"><img src="<?php echo $baseUrl; ?>/assets/images/about/about_img02.jpg" alt="" class="img-responsive"></div>
                                 <p class="text-uppercase"><strong>Quality, Health, Safety, Security and Environment</strong></p>
                                 <p>At SE Subsea, safety and quality is part of our DNA. Our commitment to QHSSE is at the heart of all our business activities.</p>
-
                             </div>
 
                         </div>
@@ -93,6 +92,8 @@
                                 <div class="margin_bottom"><img src="<?php echo $baseUrl; ?>/assets/images/about/about_img05.jpg" alt="" class="img-responsive"></div>
                                 <p class="text-uppercase"><strong>Teamwork</strong></p>
                                 <p>We value teamwork and are dedicated to delivering successful results together with all our Clients and Stakeholders.</p>
+                                <p>&nbsp;</p>
+                                <p class="text-uppercase"><strong>SE Subsea delivers, with distinction.</strong></p>
                                 <!-- <div class="logo margin_top"><img src="<?php //echo $baseUrl; ?>/assets/images/sesubsea_logo.svg" title="Se Subsea"  alt="Se Subsea" class="img-responsive"></div> -->
                             </div>
                             

@@ -66,7 +66,7 @@
                                     <li>Main Crane: 300mT @ 15-16 m, Seastate 1-2, Optional 300m block travel at single line</li>
                                     <li>Pipe Transfer Crane: 35mT at 30 m radius, Seastate 5-6</li>
                                     <li>DP Class 2</li>
-                                    <li>Accommodation for 239 pax (105 double and 10 single cabins</li>
+                                    <li>Accommodation for 239 pax (13 single, 95 double, 9 x  single cabins and 4 x 4 men cabins)</li>
                                     <li>Transit speed 13 knots</li>
                                 </ul>
                                 <div class="row">

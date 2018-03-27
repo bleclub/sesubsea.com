@@ -59,7 +59,7 @@
                             <p text->We ensure safe operations that protect the environment and benefit local communities.</p>
                             <p>We engage stakeholders and maximize opportunities for local business, create and provide employment opportunities for the communities we operate in, and invest in community programs.</p>
                             <p>Clear communications with the local communities regarding our operations is carried out through a consultation process with advisory committees.</p>
-                            <p>Public consultation open houses are held regularly in the communities of Sanzule which are near our GEL Pipeline landing Project.</p>
+                            <!-- <p>Public consultation open houses are held regularly in the communities of Sanzule which are near our GEL Pipeline landing Project.</p> -->
                             <!-- <div class="logo margin_top"><img src="<?php //echo $baseUrl; ?>/assets/images/sesubsea_logo.svg" title="Se Subsea"  alt="Se Subsea" class="img-responsive"></div> -->
                         </div>
                     </div>
