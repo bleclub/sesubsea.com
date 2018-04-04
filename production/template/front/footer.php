@@ -46,9 +46,9 @@
                 <i class="fa fa-angle-down fa-2x" id="foot_fa2"></i>	
                 <ul class="clearfix" id="foot_sub2">
                     <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business">What we do</a></li>
-                    <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-assets">Our Assets</a></li>
-                    <li><a href="<?php echo $baseUrl."/".$lang; ?>/csr">Giving Back(CSR)</a></li>
-                    <li><a href="<?php echo $baseUrl."/".$lang; ?>/qhsse">QHSSE</a></li>
+                    <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business/our-assets">Our Assets</a></li>
+                    <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business/csr">Giving Back(CSR)</a></li>
+                    <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business/qhsse">QHSSE</a></li>
                 </ul>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-12">

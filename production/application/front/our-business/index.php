@@ -62,6 +62,8 @@
                             <div class="row">
                                 <div class="margin_top col-sm-6"><img src="<?php echo $baseUrl; ?>/assets/images/our_business/our_business_img01.jpg" alt="" class="img-responsive"></div>
                                 <div class="margin_top col-sm-6"><img src="<?php echo $baseUrl; ?>/assets/images/our_business/our_business_img02.jpg" alt="" class="img-responsive"></div>
+                                <div class="margin_top col-sm-6"><img src="<?php echo $baseUrl; ?>/assets/images/our_business/our_business_img06.jpg" alt="" class="img-responsive"></div>
+                                <div class="margin_top col-sm-6"><img src="<?php echo $baseUrl; ?>/assets/images/our_business/our_business_img07.jpg" alt="" class="img-responsive"></div>
                             </div>
                             <!-- <div class="logo margin_top"><img src="<?php //echo $baseUrl; ?>/assets/images/sesubsea_logo.svg" title="Se Subsea"  alt="Se Subsea" class="img-responsive"></div> -->
                         </div>

@@ -56,6 +56,7 @@ body {
 p {
 	font-family: Helvetica, sans-serif;
 	font-size: 16px;
+	text-align: justify;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -64,10 +65,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 hr {
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	border-top: 1px solid;
 	color: #37393e;
+	opacity: .8;
 }
 
 textarea {
@@ -1197,7 +1199,7 @@ a.notify-me {
     max-width: 100%;
     position: fixed;
     left: 0;
-    padding: 0px 60px 20px;
+    padding: 0px 60px 10px;
     top: 0;
     background-color: #fff;
     width: 100%;
@@ -2569,7 +2571,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 
   .main-menu {
 	float: left;
-	margin: 40px 0 0;
+	margin: 50px 0 0;
   }
   .main-menu ul li a {
 	color: #000;

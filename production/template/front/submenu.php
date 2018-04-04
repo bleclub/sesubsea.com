@@ -8,6 +8,8 @@
             <ul class="red">
                 <li><a href="<?php echo $baseUrl."/".$lang; ?>/about">Overview</a></li>
                 <li><a href="<?php echo $baseUrl."/".$lang; ?>/about/our-history">Our History</a></li>
+                <li><a href="<?php echo $baseUrl."/".$lang; ?>/about/vision-mission">Vision & Mission</a></li>
+                <li><a href="<?php echo $baseUrl."/".$lang; ?>/about/values">Values</a></li>
             </ul>
             <span class="thumb_overlay"></span>            
         </div>
@@ -27,24 +29,21 @@
         </div>
 
         <div class="col-md-6 col-sm-8">
-        <div class="thumb">
-            <h2>Vision <br><span>and mission</span></h2>
-            <img src="<?php echo $baseUrl; ?>/assets/images/img_home01.jpg" alt="">
-            <ul>
-                <li><a href="#">Our Vision and Values</a></li>
-                <li><a href="#">Key Differentiators</a></li>
-                <li><a href="#">Current Vacancies</a></li>
-                <li><a href="#">Working for Sea Subsea</a></li>
-            </ul>
-            <span class="thumb_overlay"></span>
-        </div>
+            <div class="thumb">
+                <h2>Our<br><span>Projects</span></h2>
+                <img src="<?php echo $baseUrl; ?>/assets/images/img_home01.jpg" alt="">   
+                <ul>
+                    <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-projects">Track Record</a></li>
+                    <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-projects">Where we operate</a></li>
+                </ul>
+                <span class="thumb_overlay"></span>     
+            </div>
         </div>
         <div class="col-md-6 col-sm-4">
             <div class="thumb red m_right">
-            <h2>Our<br><span>Projects</span></h2>
+            <h2>Contact<br><span>Us</span></h2>
             <ul>
-                <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-projects">Track Record</a></li>
-                <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-projects">Where we operate</a></li>
+                <li><a href="<?php echo $baseUrl."/".$lang; ?>/contact">Contact Us</a></li>
             </ul>
             <span class="thumb_overlay"></span>            
             </div>

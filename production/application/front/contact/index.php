@@ -50,8 +50,10 @@
                             <p> &nbsp;</p>
                             <p>
                             SE SUBSEA PTE LTD.<br>
-                            103 Irrawaddy Rd, #02-07 Singapore 329566<br>
-                            <br>T: +65 6224 0181<br>F: +65 6224 0102<br>E: info@sesubsea.com</p>
+                            103 Irrawaddy Rd, #02-07 Singapore 329566</p><hr><br>
+                            <p>Rajanakarn Building, 19th Floor, 3 South Sathorn Road,<br>
+                            Yannawa, Sathorn, Bangkok 10120 Thailand</p>
+                            <p>T: +65 6224 0181<br>F: +65 6224 0102<br>E: info@sesubsea.com</p>
                         </div>
                     </div>
             </div>
