@@ -72,15 +72,15 @@
 
 
 <!-- Video Section -->
-<section id="video_section">
+<!-- <section id="video_section">
     <div class="wrapper">
         <div class="overlay"></div>
-        <video class="video" poster="<?php echo $baseUrl; ?>/assets/video/poster_video.jpg">
-            <source src="<?php echo $baseUrl; ?>/assets/video/corporate_video.mp4" type="video/mp4" />
+        <video class="video" poster="<?php //echo $baseUrl; ?>/assets/video/poster_video.jpg">
+            <source src="<?php //echo $baseUrl; ?>/assets/video/corporate_video.mp4" type="video/mp4" />
         </video>
         <div class="playpause"></div>
     </div>
-</section>
+</section> -->
 
 <!-- End Content -->
 
