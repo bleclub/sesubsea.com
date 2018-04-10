@@ -50,31 +50,18 @@
                             <p> &nbsp;</p>
                             <p>
                             SE SUBSEA PTE LTD.<br>
-                            103 Irrawaddy Rd, #02-07 Singapore 329566</p><hr><br>
+                            103 Irrawaddy Rd, #02-06 Singapore 329566</p><hr><br>
                             <p>Rajanakarn Building, 19th Floor, 3 South Sathorn Road,<br>
                             Yannawa, Sathorn, Bangkok 10120 Thailand</p>
                             <p>T: +65 6224 0181<br>F: +65 6224 0102<br>E: info@sesubsea.com</p>
+
+                            <section id="google-map" class="gmap bottommargin"></section>
                         </div>
                     </div>
             </div>
         </div>
 </section>
 
-<?php //require 'template/front/submenu.php'; ?>
-
-
-
-
-<!-- Video Section -->
-<!-- <section id="video_section">
-    <div class="wrapper">
-        <div class="overlay"></div>
-        <video class="video" poster="<?php echo $baseUrl; ?>/assets/video/poster_video.jpg">
-            <source src="<?php echo $baseUrl; ?>/assets/video/corporate_video.mp4" type="video/mp4" />
-        </video>
-        <div class="playpause"></div>
-    </div>
-</section> -->
 
 <!-- End Content -->
 
@@ -85,6 +72,41 @@
 <script src="<?php echo $baseUrl; ?>/assets/js/plugins.js"></script>
 <script src="<?php echo $baseUrl; ?>/assets/js/functions.js"></script>
 
+
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyAMqlLhPWhb309_PTzLhAnzwJkMSPIEnXY"></script>
+<script type="text/javascript" src="<?php echo $baseUrl; ?>/assets/js/jquery.gmap.js"></script>
+
+<script type="text/javascript">
+
+    $('#google-map').gMap({
+
+        address: '13.721017,100.529084',
+        maptype: 'ROADMAP',
+        zoom: 17,
+        markers: [
+            {
+                address: "13.721017,100.529084",
+                html: '<div style="width: 300px;"><h4 style="margin-bottom: 8px; font-size: 18px; color: #f42534;">Se Subsea Co., Ltd.</h4><p style="text-align:left;">Rajanakarn Building, 19th Floor, 3 South Sathorn Road, Yannawa, Sathorn, Bangkok 10120 Thailan</p></div>',
+                icon: {
+                    image: "<?php echo $baseUrl; ?>/assets/images/map-icon-red.png",
+                    iconsize: [32, 39],
+                    iconanchor: [32,39]
+                }
+            }
+        ],
+        doubleclickzoom: false,
+        controls: {
+            panControl: true,
+            zoomControl: true,
+            mapTypeControl: true,
+            scaleControl: false,
+            streetViewControl: false,
+            overviewMapControl: false
+        }
+
+    });
+
+</script><!-- Google Map End -->
 
 </body>
 </html>
