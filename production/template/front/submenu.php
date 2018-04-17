@@ -34,7 +34,7 @@
                 <img src="<?php echo $baseUrl; ?>/assets/images/img_home01.jpg" alt="">   
                 <ul>
                     <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-projects">Track Record</a></li>
-                    <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-projects">Where we operate</a></li>
+                    <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-projects/where-we-operate">Where we operate</a></li>
                 </ul>
                 <span class="thumb_overlay"></span>     
             </div>

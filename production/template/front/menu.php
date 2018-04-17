@@ -21,7 +21,7 @@
 									<ul>
 										<li><a href="<?php echo $baseUrl."/".$lang; ?>">HOME</a></li>
 										<li>
-											<a href="#">ABOUT US</a>
+											<span id="tg_menu01">ABOUT US</span>
 											<i id="tg_m1" class="fa fa-angle-down fa-2x"></i>											
 											<ul class="sub-menu" id="sub-menu1">
 												<li><a href="<?php echo $baseUrl."/".$lang; ?>/about">Overview</a></li>	
@@ -31,7 +31,7 @@
 											</ul>
 										</li>
 										<li>
-											<a href="#">OUR BUSINESS</a>
+											<span id="tg_menu02">OUR BUSINESS</span>
 											<i id="tg_m2" class="tg_m fa fa-angle-down fa-2x"></i>
 											<ul class="sub-menu" id="sub-menu2">
 												<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business">What we do</a></li>	
@@ -41,7 +41,7 @@
 											</ul>
 										</li>
 										<li>
-											<a href="#">OUR PROJECTS</a>
+											<span id="tg_menu03">OUR PROJECTS</span>
 											<i id="tg_m3" class="tg_m fa fa-angle-down fa-2x"></i>
 											<ul class="sub-menu" id="sub-menu3">
 												<li><a href="<?php echo $baseUrl."/".$lang; ?>/our-projects">Track record</a></li>	

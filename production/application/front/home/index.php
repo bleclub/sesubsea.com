@@ -29,7 +29,7 @@
                         <img src="<?php echo $baseUrl; ?>/assets/images/slider1.jpg" alt="">
                         <div class="head-text">
                             <div class="col-md-8 col-md-offset-3">
-                                <h1>SAFETY IS AT THE HEART <span>OF ALL OUR OPERATIONS</span></h1>
+                                <h1>SE SUBSEA DELIVERS <span>WITH DISTINCTION.</span></h1>
                             </div>
                             <div class="col-md-6 col-md-offset-3">
                                 <a>Explore</a>
@@ -39,10 +39,10 @@
 
                     <div class="slide2 bg">
                         <!-- <div class="overlay"></div> -->
-                        <img src="<?php echo $baseUrl; ?>/assets/images/slider2.jpg" alt="">								
+                        <img src="<?php echo $baseUrl; ?>/assets/images/slider3.jpg" alt="">								
                         <div class="head-text">
                             <div class="col-md-8 col-md-offset-3">
-                                <h1>SAFETY IS AT THE HEART <span>OF ALL OUR OPERATIONS</span></h1>									
+                                <h1>SAFETY, QUALITY, TRUST <span>THAT'S OUR DNA</span></h1>    									
                             </div>
                             <div class="col-md-6 col-md-offset-3">
                                 <a>Explore</a>
@@ -50,18 +50,8 @@
                         </div>
                     </div>
 
-                    <div class="slide3 bg">
-                        <!-- <div class="overlay"></div> -->
-                        <img src="<?php echo $baseUrl; ?>/assets/images/slider3.jpg" alt="">								
-                        <div class="head-text">
-                            <div class="col-md-8 col-md-offset-3">
-                                <h1>SAFETY IS AT THE HEART <span>OF ALL OUR OPERATIONS</span></h1>										
-                            </div>
-                            <div class="col-md-6 col-md-offset-3">
-                                <a>Explore</a>
-                            </div>
-                        </div>
-                    </div>
+                   
+                    
                 </div>
             </div>
         </div>

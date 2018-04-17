@@ -56,7 +56,7 @@
                             <!-- <div class="margin_bottom width50"><img src="<?php //echo $baseUrl; ?>/assets/images/local_type.svg" alt="" class="img-responsive"></div>-->
                             <!-- <p class="text-uppercase"><strong>Local dedication global standards</strong></p> -->
                             <p>We have dedicated local partners with global marine and offshore construction experience. Together, SE Subsea undertakes and delivers marine and T&I projects associated with SURF and Conventional Pipelay Installations. </p>
-                            <p>SE Subsea is an experienced company that can provide offshore Pipeline / SURF construction, project management, marine management , welding programs and subsea component fabrication services.</p>
+                            <p>SE Subsea is an experienced company that can provide offshore Pipeline / SURF construction, project management, marine management, welding programs and subsea component fabrication services.</p>
                             <p>&nbsp;</p>
                             <p class="text-uppercase"><strong>SE Subsea delivers, with distinction.</strong></p>
                             <div class="row">

@@ -56,8 +56,8 @@
                         <!-- Entry Content
                         ============================================= -->
                         <div class="col-sm-7">
-                        <p>SE Subsea is evolving into an exciting company with a mission: to deliver integrated offshore construction and marine solutions to meet the changing needs of our clients in the Energy and Offshore Industry across the globe.  Backed by an impeccable track record, SE Subsea undertakes and delivers marine solutions and T&I projects associated with SURF and Conventional pipelay installations.</p>
-                        <p>To bring cost-effective solutions to our clients, SE Subsea is investing in people, ideas and assets to drive our mission. We have acquired the Star Centurion – a deepwater construction and pipelay vessel to strengthen our technical capabilities to  offer a wider range of services when required.</p>
+                        <p>SE Subsea is evolving into an exciting company with a mission: to deliver integrated offshore construction and marine solutions to meet the changing needs of our clients in the Energy and Offshore Industry across the globe.  Backed by an impeccable track record, SE Subsea undertakes and delivers marine solutions and T&I projects associated with SURF and Conventional Pipelay Installations.</p>
+                        <p>To bring cost-effective solutions to our clients, SE Subsea is investing in people, ideas and assets to drive our mission. We have acquired the Star Centurion, a deepwater construction and pipelay vessel to strengthen our technical capabilities to  offer a wider range of services when required.</p>
                         <p>Operating within a challenging industry, SE Subsea is committed to protecting the health and safety of all persons involved with its activities, and thus achieving a safe and incident free workplace, with high standards of environmental responsibility and pollution prevention.</p>
                         <p>&nbsp;</p>
                         <p class="text-uppercase"><strong>SE Subsea delivers, with distinction.</strong></p>

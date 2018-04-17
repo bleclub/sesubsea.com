@@ -3,7 +3,7 @@
         width: 50%;
         margin: 50px 0 50px;
     }
-    #menu > .inner > ul > li a{
+    #menu > .inner > ul > li a, #menu > .inner > ul > li span{
         font-size: 16px;
     }
 
@@ -42,7 +42,7 @@
         padding: 0 20px;
     }
 
-    #menu > .inner > ul > li a:hover{
+    #menu > .inner > ul > li a:hover, #menu > .inner > ul > li span:hover{
         color: #f42534;
         text-decoration: none;
     }
@@ -220,6 +220,9 @@
 
 
 @media screen and (max-width: 740px) {
+    #content p{
+        text-align: left;
+    }
     #content.content_page{
         padding: 0;
     }
@@ -428,6 +431,7 @@
     left: 5%;
     top: 50%;
 }
+
 
 
 }

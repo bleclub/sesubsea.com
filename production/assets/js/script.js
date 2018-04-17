@@ -135,7 +135,7 @@ $(document).ready(function () {
 
 
 
-    $( "#tg_m1" ).click(function() {
+    $( "#tg_m1, #tg_menu01" ).click(function() {
         $( "#sub-menu1" ).toggle( 300, function() {
             if ($('#tg_m1.fa').hasClass( "fa-angle-down" ) ) {
                 $('#tg_m1.fa').removeClass('fa-angle-down');
@@ -144,11 +144,13 @@ $(document).ready(function () {
                 $('#tg_m1.fa').removeClass('fa-angle-up');
                 $('#tg_m1.fa').addClass('fa-angle-down');
             }
+            $( "#sub-menu2" ).hide(300);
+            $( "#sub-menu3" ).hide(300);
         });
 
     });
 
-    $( "#tg_m2" ).click(function() {
+    $( "#tg_m2, #tg_menu02" ).click(function() {
         $( "#sub-menu2" ).toggle( 300, function() {
             if ($('#tg_m2.fa').hasClass( "fa-angle-down" ) ) {
                 $('#tg_m2.fa').removeClass('fa-angle-down');
@@ -157,10 +159,12 @@ $(document).ready(function () {
                 $('#tg_m2.fa').removeClass('fa-angle-up');
                 $('#tg_m2.fa').addClass('fa-angle-down');
             }
+            $( "#sub-menu1" ).hide(300);
+            $( "#sub-menu3" ).hide(300);
         });
     });
 
-    $( "#tg_m3" ).click(function() {
+    $( "#tg_m3, #tg_menu03" ).click(function() {
         $( "#sub-menu3" ).toggle( 300, function() {
             if ($('#tg_m3.fa').hasClass( "fa-angle-down" ) ) {
                 $('#tg_m3.fa').removeClass('fa-angle-down');
@@ -169,6 +173,8 @@ $(document).ready(function () {
                 $('#tg_m3.fa').removeClass('fa-angle-up');
                 $('#tg_m3.fa').addClass('fa-angle-down');
             }
+            $( "#sub-menu1" ).hide(300);
+            $( "#sub-menu2" ).hide(300);
         });
     });
 

@@ -45,7 +45,7 @@
                 <h3 class="h2 pull" id="foot_m2">OUR BUSINESS</h3>
                 <i class="fa fa-angle-down fa-2x" id="foot_fa2"></i>	
                 <ul class="clearfix" id="foot_sub2">
-                    <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business">What we do</a></li>
+                    <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business">What We Do</a></li>
                     <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business/our-assets">Our Assets</a></li>
                     <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business/csr">Giving Back(CSR)</a></li>
                     <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-business/qhsse">QHSSE</a></li>
@@ -55,8 +55,8 @@
                 <h3 class="h2 pull" id="foot_m3">Our Projects</h3>
                 <i class="fa fa-angle-down fa-2x" id="foot_fa3"></i>	
                 <ul class="clearfix" id="foot_sub3">
-                    <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-projects">Track record</a></li>
-                    <li><a href="<?php echo $baseUrl."/".$lang; ?>/where-we-operate">Where we operate</a></li>
+                    <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-projects">Track Record</a></li>
+                    <li><a href="<?php echo $baseUrl."/".$lang; ?>/our-projects/where-we-operate">Where We Operate</a></li>
                 </ul>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-12">

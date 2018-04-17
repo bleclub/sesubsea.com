@@ -55,7 +55,7 @@
                             <div class="col-sm-12 margin_top">
                                 <!-- <div class="margin_bottom width50"><img src="<?php echo $baseUrl; ?>/assets/images/qhsse_type.svg" alt="" class="img-responsive"></div> -->
                                 
-                                <p class="text-uppercase"><strong>Safety, Quality, Trust That's our DNA</strong></p>                                
+                                <p class="text-uppercase"><strong>Safety, Quality, Trust - That's our DNA</strong></p>                                
                                 <p>At SE Subsea we provide an “Integrated Management System” (IMS) for the management of our QHSSE and continually strive to improve its effectiveness in accordance with the requirements of the latest ISO 9001, ISO 14001, OHSAS 18001 standards, International Ship and Port Facility Security (ISPS) Code and The International Management Code for the Safe Operation of Ships and for Pollution Prevention (ISM) as applicable to our operations.</p>
                                 <p>SE Subsea delivers, with distinction.</p>
                                 <div class="row">

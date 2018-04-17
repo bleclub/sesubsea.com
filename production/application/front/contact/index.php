@@ -25,7 +25,7 @@
         <!-- <span>Overview</span> -->
         <ol class="breadcrumb">
             <li><a href="<?php echo $baseUrl."/".$lang; ?>">Home</a></li>
-            <li class="active"><a href="#">Contact Us</a></li>
+            <li class="active">Contact Us</li>
         </ol>
     </div>
 <div class="overlay"></div>

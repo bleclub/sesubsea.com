@@ -55,19 +55,17 @@
                             <div class="col-sm-12 margin_top">
                                 <!-- <div class="margin_bottom width50"><img src="<?php echo $baseUrl; ?>/assets/images/assets_type.png" alt="" class="img-responsive"></div>-->
                                 <p class="text-uppercase"><strong>bridging capabilties with our assets</strong></p>
-                                <p>The S-Lay pipeline installation vessel, SE Centurion, enhances SE Subsea’s solutions and capabilities for both shallow and deepwater.</p>
+                                <p>The S-Lay Pipeline Installation Vessel, SE Centurion, enhances SE Subsea’s solutions and capabilities for both shallow and deepwater.</p>
                                 <p>Key features include:</p>
                                 <ul>  
-                                    <li>Loa 146,5m, B 30,0m</li>
-                                    <li>Coated pipe up to OD 42in</li>
-                                    <li>3 x 135mT tensioners @ A&R winch 450mT</li>
-                                    <li>6500mT pipe storage capacity</li>
+                                    <li>Loa 146.5m, B 30.0m</li>
+                                    <li>3 x 135MT tensioners @ A&R winch 450MT</li>
+                                    <li>6500MT pipe storage capacity</li>
                                     <li>90m Stinger, adjustable radius 70m to 300m</li>
-                                    <li>Main Crane: 300mT @ 15-16 m, Seastate 1-2, Optional 300m block travel at single line</li>
-                                    <li>Pipe Transfer Crane: 35mT at 30 m radius, Seastate 5-6</li>
+                                    <li>Main Crane: 300MT @ 15 - 16m, Seastate 1-2, Optional 300m block travel at single line</li>
+                                    <li>Pipe Transfer Crane: 35MT at 30m radius, Seastate 5-6</li>
                                     <li>DP Class 2</li>
-                                    <li>Accommodation for 239 pax (13 single, 95 double, 9 x  single cabins and 4 x 4 men cabins)</li>
-                                    <li>Transit speed 13 knots</li>
+                                    <li>Accommodation for 238 pax (13 single, 95 double, 9 x  single cabins and 4 x 4 men cabins)</li>
                                 </ul>
                                 <a href="#" target="_blank" class="bt_info">Click here for more information</a>
                                 <div class="row">

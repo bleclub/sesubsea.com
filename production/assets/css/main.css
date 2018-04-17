@@ -1336,7 +1336,7 @@ a.notify-me {
 	padding: 0;
 }
 
-#menu > .inner > ul > li a {
+#menu > .inner > ul > li a, #menu > .inner > ul > li span {
 	display: block;
 	padding: 5px 0px;
 	line-height: 1.5;
@@ -1347,7 +1347,7 @@ a.notify-me {
 	text-decoration: none;
 }
 
-#menu > .inner > ul > li a:hover{
+#menu > .inner > ul > li a:hover, #menu > .inner > ul > li span:hover{
 	text-decoration: underline;
 }
 #menu > .inner > ul > li:first-child {
@@ -1419,7 +1419,7 @@ a.notify-me {
 
 #menu ul.social-icon {
 	position: absolute;
-	bottom: 0;
+	bottom: 20px;
 	width: 100%;
 	float: left;
 	left: 0;
