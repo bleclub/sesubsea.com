@@ -54,7 +54,7 @@
                             ============================================= -->
                             <div class="col-sm-7 margin_bottom">
                                 <p>SE Subsea is evolving. We are investing in people, ideas and assets to help move your conventional and subsea projects forward.</p>
-                                <p>Formally SRI EMAS – a joint venture between Ezra Holdings and a Ghanaian shareholder, SE Subsea has its roots as a Category A Upstream Petroleum Services Company qualified by Ghana’s Petroleum Commission. With our strong indigenous content and presence, SE Subsea has a solid track record in executing projects with our partners and clients in the Gulf  of Mexico, North Sea, West African and Southeast Asian regions.</p>
+                                <p>Formally SRI EMAS – a joint venture between Ezra Holdings and a Ghanaian shareholder, SE Subsea has its roots as a Category A Upstream Petroleum Services Company qualified by Ghana’s Petroleum Commission. With our strong indigenous content and presence, SE Subsea has a solid track record in executing projects with our partners and clients in the Gulf of Mexico, North Sea, West Africa, and Asia Pacific regions.</p>
                                 <p>We continue to write our young but proud history. Through our work and investments, we are serving the global markets out of Singapore, Bangkok and West Africa.</p>
                                 <p>&nbsp;</p>
                                 <p class="text-uppercase"><strong>SE Subsea delivers, with distinction.</strong></p>
