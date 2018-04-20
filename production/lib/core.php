@@ -7,7 +7,7 @@ function base_url() {
 	// } else {
 	// 	return "http://sesubsea.com";
 	// }
-    return "http://192.168.1.107/vanlop/projcets/sesubsea.com/production";
+    return "http://localhost/vanlop/projcets/sesubsea.com/production";
     
 }
 

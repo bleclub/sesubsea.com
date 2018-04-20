@@ -48,14 +48,19 @@
                             <div class="logo margin_top pull-left"><img src="<?php echo $baseUrl; ?>/assets/images/sesubsea_logo.svg" title="Se Subsea"  alt="Se Subsea" class="img-responsive"></div>
                             <p> &nbsp;</p>
                             <p> &nbsp;</p>
-                            <p>
-                            SE SUBSEA PTE LTD.<br>
-                            103 Irrawaddy Rd, #02-06 Singapore 329566</p><hr><br>
-                            <p>Rajanakarn Building, 19th Floor, 3 South Sathorn Road,<br>
-                            Yannawa, Sathorn, Bangkok 10120 Thailand</p>
+                            <!-- SE SUBSEA PTE LTD.<br> -->
+                            <p class="text-uppercase"><strong>Singapore Office</strong></p>
+                            <p>103 Irrawaddy Rd, #02-06 <br>Singapore 329566</p><hr><br>
+                            <p class="text-uppercase"><strong>Thailand Office</strong></p>
+                            <p>Rajanakarn Building, 19th Floor, 3 South Sathorn Road,
+                            <br>Yannawa, Sathorn, Bangkok 10120 Thailand</p><hr><br>
+                            <p class="text-uppercase"><strong>Houston Office</strong></p>
+                            <p>709 E 17th ST Houston, <br>TX 77008</p><hr><br>
+                            <p class="text-uppercase"><strong>Accra Office</strong></p>
+                            <p>Capital Place Block B 1st Floor 11 Patrice <br>Lumumba Road Airport Residential Areaaccra - Ghana</p>
                             <p>T: +65 6224 0181<br>F: +65 6224 0102<br>E: <a href="mailto:info@sesubsea.com">info@sesubsea.com</a></p>
 
-                            <section id="google-map" class="gmap bottommargin"></section>
+                            <!-- <section id="google-map" class="gmap bottommargin"></section> -->
                         </div>
                     </div>
             </div>
