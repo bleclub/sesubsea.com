@@ -11,7 +11,12 @@ class database {
           'pass' => 'root',
            'dbname' => 'sesubsea_db'
        );
-    
+        // $dbsql = array(
+        //      'host' => 'localhost',
+        //      'user' => 'seasubusr',
+        //      'pass' => 'bIdThFU(tMTq',
+        //      'dbname' => 'sesubsea_db'
+        //  );
         $this->con = mysqli_connect($dbsql['host'], $dbsql['user'], $dbsql['pass']) or die('Error connecting to MySQL');
         mysqli_select_db($this->con, $dbsql['dbname']) or die('Database ' . $dbsql['dbname'] . ' does not exist!');
         // mysqli_query("SET NAMES UTF8");
