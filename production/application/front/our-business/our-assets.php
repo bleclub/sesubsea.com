@@ -67,7 +67,7 @@
                                     <li>DP Class 2</li>
                                     <li>Accommodation for 238 pax (13 single, 95 double, 9 x  single cabins and 4 x 4 men cabins)</li>
                                 </ul>
-                                <a href="#" target="_blank" class="bt_info">Click here for more information</a>
+                                <a href="<?php echo $baseUrl; ?>/upload/brochure/Se_Subsea_Spec.pdf" target="_blank" class="bt_info">Click here for more information</a>
                                 <div class="row">
                                     <div class="margin_top col-sm-6"><img src="<?php echo $baseUrl; ?>/assets/images/our_business/our_business_img04.jpg" alt="" class="img-responsive"></div>
                                     <div class="margin_top col-sm-6"><img src="<?php echo $baseUrl; ?>/assets/images/our_business/our_business_img05.jpg" alt="" class="img-responsive"></div>

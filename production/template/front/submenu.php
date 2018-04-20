@@ -48,6 +48,24 @@
             <span class="thumb_overlay"></span>            
             </div>
         </div>
+
+         <div class="col-md-6 col-sm-6">
+            <div class="thumb">
+                <h2>Our <span>video</span></h2>
+                <img src="<?php echo $baseUrl; ?>/assets/video/poster_video1.jpg" alt="">   
+                <span class="thumb_overlay"></span> 
+                <a href="<?php echo $baseUrl; ?>/assets/video/video01.mp4" class="video_project"><div class="playpause"></div></a>
+            </div>
+        </div>
+
+         <div class="col-md-6 col-sm-6">
+            <div class="thumb">
+                <h2>Our <span>video</span></h2>
+                <img src="<?php echo $baseUrl; ?>/assets/video/poster_video2.jpg" alt="">   
+                <span class="thumb_overlay"></span>                 
+                <a href="<?php echo $baseUrl; ?>/assets/video/video02.mp4" class="video_project"><div class="playpause video_project"></div></a>
+            </div>
+        </div>
     
     </div>
 </section>

@@ -128,6 +128,8 @@
 	<script src="<?php echo $baseUrl; ?>/assets/js/jquery-3.1.0.min.js"></script>
 	<script src="<?php echo $baseUrl; ?>/assets/js/bootstrap.min.js"></script>
 	<script src="<?php echo $baseUrl; ?>/assets/js/owl.carousel.min.js"></script>
+	<script src="<?php echo $baseUrl; ?>/assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="<?php echo $baseUrl; ?>/assets/js/magnific-option.js"></script>
 	<script src="<?php echo $baseUrl; ?>/assets/js/script.js"></script>
 
 
