@@ -1,13 +1,13 @@
 <?php
 
 function base_url() {
-	// $url = 'http://' . $_SERVER['SERVER_NAME'];
-	// if(strpos($url,'www.') !== false){
-	// 	return "http://www.sesubsea.com";
-	// } else {
-	// 	return "http://sesubsea.com";
-	// }
-    return "http://192.168.1.107/vanlop/projcets/sesubsea.com/production";
+	$url = 'http://' . $_SERVER['SERVER_NAME'];
+	if(strpos($url,'www.') !== false){
+		return "http://www.sesubsea.com";
+	} else {
+		return "http://sesubsea.com";
+	}
+    // return "http://192.168.1.103/ProjectWeb/sesubsea.com/production";
     
 }
 
