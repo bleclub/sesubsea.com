@@ -55,7 +55,7 @@
                             <p>Rajanakarn Building, 19th Floor, 3 South Sathorn Road,
                             <br>Yannawa, Sathorn, Bangkok 10120 Thailand</p><hr><br>
                             <p class="text-uppercase"><strong>Houston Office</strong></p>
-                            <p>709 E 17th ST Houston, <br>TX 77008</p><hr><br>
+                            <p>709 E 17th St. <br>Houston, TX 77008</p><hr><br>
                             <p class="text-uppercase"><strong>Accra Office</strong></p>
                             <p>Capital Place Block B 1st Floor 11 Patrice <br>Lumumba Road Airport Residential Areaaccra - Ghana</p>
                             <p>T: +65 6224 0181<br>F: +65 6224 0102<br>E: <a href="mailto:info@sesubsea.com">info@sesubsea.com</a></p>

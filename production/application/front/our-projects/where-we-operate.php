@@ -43,7 +43,7 @@
                         ============================================= -->
                         <div class="col-sm-12 margin_top">
                             <p>We operate worldwide and in all deepwater offshore markets.</p>
-                            <p>Our global footprint, combined with the technical expertise of our people, our technology and world-class assets, both on and offshore, enables us to adapt these capabilities to deliver subsea engineering services worldwide.</p>
+                            <p>Our global footprint, combined with the technical expertise of our people, our technology and world-class assets, both on and offshore, enables us to adapt these capabilities to deliver subsea installation services worldwide.</p>
                             <div class="margin_bottom"><img src="<?php echo $baseUrl; ?>/assets/images/our_projects/SE_Subsea_Map.png" alt="" class="img-responsive"></div>
                         </div>
                     </div>

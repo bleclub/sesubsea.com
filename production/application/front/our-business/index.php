@@ -55,8 +55,17 @@
                         <div class="col-sm-12 margin_top">
                             <!-- <div class="margin_bottom width50"><img src="<?php //echo $baseUrl; ?>/assets/images/local_type.svg" alt="" class="img-responsive"></div>-->
                             <!-- <p class="text-uppercase"><strong>Local dedication global standards</strong></p> -->
-                            <p>We have dedicated local partners with global marine and offshore construction experience. Together, SE Subsea undertakes and delivers marine and T&I projects associated with SURF and Conventional Pipelay Installations. </p>
-                            <p>SE Subsea is an experienced company that can provide offshore Pipeline / SURF construction, project management, marine management, welding programs and subsea component fabrication services.</p>
+                            <!-- <p>We have dedicated local partners with global marine and offshore construction experience. Together, SE Subsea undertakes and delivers marine and T&I projects associated with offshore subsea installations.</p>
+                            <p>SE Subsea along with our strategic partners can provide Offshore Pipeline Installation, Project Management, Marine Management, Welding Programs and Subsea Component Fabrication Services.</p> -->
+                            <p>SE Subsea carries out T&I projects associated with subsea installations observing to appropriate international codes and standards as well as the client specifications and contract requirements. SE Subsea approaches all requirements while professionally delivering an innovative and flexible approach to each project. All operations are performed by the most skilled personnel with quality assurance and safety first mentality throughout the duration of the project.  Along with our strategic partners, SE Subsea provides:</p>
+                            <ul>
+                                <li>Project Management</li>
+                                <li>Design and Engineering</li>
+                                <li>Marine Management</li>
+                                <li>Welding Programs</li>
+                                <li>Fabrication of Subsea Components</li>
+                                <li>Construction and Installation</li>
+                            </ul>
                             <p>&nbsp;</p>
                             <p class="text-uppercase"><strong>SE Subsea delivers, with distinction.</strong></p>
                             <div class="row">
